@@ -1,0 +1,20 @@
+﻿  21i-0640_G_A2_Q1_Parallel.c
+  21i-0640_G_A2_Q1_Serial.c
+  21i-0640_G_A2_Q2_P1.c
+  21i-0640_G_A2_Q2_P2.c
+  21i-0640_G_A2_Q2_P3.c
+  Generating Code...
+  LINK : D:\Softwares\Visual Studio\PDC\Ass12\Assignment2\x64\Debug\Assignment2.exe not found or not built by the last incremental link; performing full link
+21i-0640_G_A2_Q1_Serial.obj : error LNK2005: AddEdgeCities already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q1_Serial.obj : error LNK2005: DFS already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q1_Serial.obj : error LNK2005: createMap already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q1_Serial.obj : error LNK2005: freeCityMap already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q1_Serial.obj : error LNK2005: main already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q2_P1.obj : error LNK2005: main already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q2_P2.obj : error LNK2005: main already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q2_P2.obj : error LNK2005: orderedPrint already defined in 21i-0640_G_A2_Q2_P1.obj
+21i-0640_G_A2_Q2_P3.obj : error LNK2005: main already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q2_P3.obj : error LNK2005: orderedPrint already defined in 21i-0640_G_A2_Q2_P1.obj
+21i-0640_G_A2_Q2_P4.obj : error LNK2005: main already defined in 21i-0640_G_A2_Q1_Parallel.obj
+21i-0640_G_A2_Q2_P4.obj : error LNK2005: orderedPrint already defined in 21i-0640_G_A2_Q2_P1.obj
+D:\Softwares\Visual Studio\PDC\Ass12\Assignment2\x64\Debug\Assignment2.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -1,0 +1,7 @@
+﻿  Source.c
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,15): error C2057: expected constant expression
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,18): error C2466: cannot allocate an array of constant size 0
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,20): error C2057: expected constant expression
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,21): error C2466: cannot allocate an array of constant size 0
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,9): error C2087: 'dis': missing subscript
+D:\Softwares\Visual Studio\PDC\Project\PDC_Project\Source.c(9,9): error C2133: 'dis': unknown size
