@@ -1,0 +1,2625 @@
+Parent node:  0
+Parent node:  1
+Parent node:  2
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  2
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  3
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 3
+Parent node:  2
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  2
+Leaf node: value = 255, x = 3
+Leaf node: value = 255, x = 3
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  1
+Parent node:  2
+Parent node:  3
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 4
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  2
+Parent node:  3
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 3
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  2
+Leaf node: value = 255, x = 3
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  2
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  1
+Parent node:  2
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 4
+Parent node:  3
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  2
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 3
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  2
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  2
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 3
+Parent node:  3
+Parent node:  4
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  1
+Parent node:  2
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 3
+Parent node:  2
+Parent node:  3
+Leaf node: value = 0, x = 4
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 255, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  3
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  3
+Parent node:  4
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  2
+Leaf node: value = 255, x = 3
+Parent node:  3
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Parent node:  4
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 6
+Leaf node: value = 0, x = 4
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Parent node:  6
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  2
+Parent node:  3
+Leaf node: value = 0, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 4
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Parent node:  4
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Parent node:  5
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Parent node:  6
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 0, x = 7
+Leaf node: value = 255, x = 7
+Leaf node: value = 255, x = 6
+Leaf node: value = 255, x = 5
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 4
+Parent node:  3
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 4
+Parent node:  4
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 5
+Parent node:  5
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 0, x = 6
+Leaf node: value = 255, x = 4
+Leaf node: value = 255, x = 3
