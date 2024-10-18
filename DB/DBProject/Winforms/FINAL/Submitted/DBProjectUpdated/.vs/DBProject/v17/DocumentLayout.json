@@ -1,0 +1,1103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminviewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminviewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyviewta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultyremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultysignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultysignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\globalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:globalvar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\tablecreationinsertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:tablecreationinsertion.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\proceduresfunctions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:proceduresfunctions.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminaddnewcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminaddnewcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_updatelabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_updatelabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ld_updatelabs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_updatelabs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyaddta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyviewta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyviewld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyviewld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultytasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyremovetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremovetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyremovetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremovetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyremoveta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremoveta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyremoveta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremoveta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyremoveld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremoveld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyremoveld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyremoveld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyaddtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyaddtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyaddta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyaddld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\f_facultyaddld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:f_facultyaddld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ld_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ld_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ld_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ld_updatelabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ld_updatelabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ta_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ta_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ta_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_seetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\ta_updatetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_updatetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_updatetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:ta_updatetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\facultyremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultyremove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\facultysignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultysignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\facultyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:facultyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminremovecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminremovecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminviewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminviewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminupdate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\adminupdate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminremovecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminremovecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\adminaddnewcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:adminaddnewcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|d:\\softwares\\visual studio\\db\\dbproject\\winforms\\final\\submitted\\dbprojectupdated\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D404BA0-6EC3-431A-87D8-AF8FE88A2304}|DBProject.csproj|solutionrelative:addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "facultySignup.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultySignup.cs",
+              "RelativeDocumentMoniker": "facultySignup.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultySignup.cs [Design]",
+              "RelativeToolTip": "facultySignup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "facultyRemove.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyRemove.cs",
+              "RelativeDocumentMoniker": "facultyRemove.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyRemove.cs [Design]",
+              "RelativeToolTip": "facultyRemove.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "f_facultyViewTA.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewTA.cs",
+              "RelativeDocumentMoniker": "f_facultyViewTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewTA.cs [Design]",
+              "RelativeToolTip": "f_facultyViewTA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "f_facultyViewFeedback.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewFeedback.cs",
+              "RelativeDocumentMoniker": "f_facultyViewFeedback.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewFeedback.cs [Design]",
+              "RelativeToolTip": "f_facultyViewFeedback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminViewCourses.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminViewCourses.cs",
+              "RelativeDocumentMoniker": "AdminViewCourses.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminViewCourses.cs [Design]",
+              "RelativeToolTip": "AdminViewCourses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.965Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacultyView.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\FacultyView.cs",
+              "RelativeDocumentMoniker": "FacultyView.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\FacultyView.cs [Design]",
+              "RelativeToolTip": "FacultyView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "globalVar.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\globalVar.cs",
+              "RelativeDocumentMoniker": "globalVar.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\globalVar.cs",
+              "RelativeToolTip": "globalVar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:29.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "start.Designer.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\start.Designer.cs",
+              "RelativeDocumentMoniker": "start.Designer.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\start.Designer.cs",
+              "RelativeToolTip": "start.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:34:08.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TableCreationInsertion.sql",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\TableCreationInsertion.sql",
+              "RelativeDocumentMoniker": "TableCreationInsertion.sql",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\TableCreationInsertion.sql",
+              "RelativeToolTip": "TableCreationInsertion.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-14T09:34:00.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProceduresFunctions.sql",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ProceduresFunctions.sql",
+              "RelativeDocumentMoniker": "ProceduresFunctions.sql",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ProceduresFunctions.sql",
+              "RelativeToolTip": "ProceduresFunctions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-14T09:33:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ld_UpdateLabs.Designer.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.Designer.cs",
+              "RelativeDocumentMoniker": "ld_UpdateLabs.Designer.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.Designer.cs",
+              "RelativeToolTip": "ld_UpdateLabs.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:42.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:33.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ld_UpdateLabs.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.cs",
+              "RelativeDocumentMoniker": "ld_UpdateLabs.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.cs [Design]",
+              "RelativeToolTip": "ld_UpdateLabs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AddAdmin.cs",
+              "RelativeDocumentMoniker": "AddAdmin.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AddAdmin.cs [Design]",
+              "RelativeToolTip": "AddAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:10.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminAddNewCourse.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminAddNewCourse.cs",
+              "RelativeDocumentMoniker": "AdminAddNewCourse.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminAddNewCourse.cs [Design]",
+              "RelativeToolTip": "AdminAddNewCourse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:10.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminMainPage.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminMainPage.cs",
+              "RelativeDocumentMoniker": "AdminMainPage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\AdminMainPage.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\AdminMainPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:10.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "f_facultyAddTA.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTA.cs",
+              "RelativeDocumentMoniker": "f_facultyAddTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyAddTA.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyAddTA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:10.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "start.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\start.cs",
+              "RelativeDocumentMoniker": "start.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\start.cs [Design]",
+              "RelativeToolTip": "start.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ld_Mainpage.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_Mainpage.cs",
+              "RelativeDocumentMoniker": "ld_Mainpage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ld_Mainpage.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ld_Mainpage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ta_Mainpage.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_Mainpage.cs",
+              "RelativeDocumentMoniker": "ta_Mainpage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ta_Mainpage.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ta_Mainpage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "f_facultyMain.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyMain.cs",
+              "RelativeDocumentMoniker": "f_facultyMain.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyMain.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "f_facultyViewTA.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewTA.cs",
+              "RelativeDocumentMoniker": "f_facultyViewTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewTA.cs",
+              "RelativeToolTip": "f_facultyViewTA.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwGIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "f_facultyViewLD.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewLD.cs",
+              "RelativeDocumentMoniker": "f_facultyViewLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewLD.cs",
+              "RelativeToolTip": "f_facultyViewLD.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAUwIAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "f_facultyViewLD.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewLD.cs",
+              "RelativeDocumentMoniker": "f_facultyViewLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyViewLD.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyViewLD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "f_facultyViewFeedback.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewFeedback.cs",
+              "RelativeDocumentMoniker": "f_facultyViewFeedback.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyViewFeedback.cs",
+              "RelativeToolTip": "f_facultyViewFeedback.cs",
+              "ViewState": "AQIAAGoAAAAAaWZmZmY/wGUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "f_facultyTasks.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyTasks.cs",
+              "RelativeDocumentMoniker": "f_facultyTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyTasks.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "f_facultyTasks.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyTasks.cs",
+              "RelativeDocumentMoniker": "f_facultyTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyTasks.cs",
+              "RelativeToolTip": "f_facultyTasks.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAA2wGEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "f_facultyRemoveTask.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTask.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveTask.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTask.cs",
+              "RelativeToolTip": "f_facultyRemoveTask.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAUwI8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "f_facultyRemoveTask.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTask.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveTask.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyRemoveTask.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyRemoveTask.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "f_facultyRemoveTA.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTA.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTA.cs",
+              "RelativeToolTip": "f_facultyRemoveTA.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAUwIMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "f_facultyRemoveTA.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveTA.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyRemoveTA.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyRemoveTA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "f_facultyRemoveLD.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveLD.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyRemoveLD.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyRemoveLD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "f_facultyRemoveLD.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveLD.cs",
+              "RelativeDocumentMoniker": "f_facultyRemoveLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyRemoveLD.cs",
+              "RelativeToolTip": "f_facultyRemoveLD.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAUwI0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "f_facultyMain.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyMain.cs",
+              "RelativeDocumentMoniker": "f_facultyMain.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyMain.cs",
+              "RelativeToolTip": "f_facultyMain.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAUwGwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "f_facultyfeedback.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyfeedback.cs",
+              "RelativeDocumentMoniker": "f_facultyfeedback.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyfeedback.cs",
+              "RelativeToolTip": "f_facultyfeedback.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwFQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "f_facultyfeedback.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyfeedback.cs",
+              "RelativeDocumentMoniker": "f_facultyfeedback.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyfeedback.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyfeedback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "f_facultyAddTask.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTask.cs",
+              "RelativeDocumentMoniker": "f_facultyAddTask.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTask.cs",
+              "RelativeToolTip": "f_facultyAddTask.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAUwIsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "f_facultyAddTask.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTask.cs",
+              "RelativeDocumentMoniker": "f_facultyAddTask.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyAddTask.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyAddTask.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "f_facultyAddTA.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTA.cs",
+              "RelativeDocumentMoniker": "f_facultyAddTA.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddTA.cs",
+              "RelativeToolTip": "f_facultyAddTA.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAUwKMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "f_facultyAddLD.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddLD.cs",
+              "RelativeDocumentMoniker": "f_facultyAddLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\f_facultyAddLD.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\f_facultyAddLD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "f_facultyAddLD.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddLD.cs",
+              "RelativeDocumentMoniker": "f_facultyAddLD.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\f_facultyAddLD.cs",
+              "RelativeToolTip": "f_facultyAddLD.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAUwIAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ld_GiveFeedBack.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_GiveFeedBack.cs",
+              "RelativeDocumentMoniker": "ld_GiveFeedBack.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_GiveFeedBack.cs",
+              "RelativeToolTip": "ld_GiveFeedBack.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAUwGgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ld_GiveFeedBack.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_GiveFeedBack.cs",
+              "RelativeDocumentMoniker": "ld_GiveFeedBack.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ld_GiveFeedBack.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ld_GiveFeedBack.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ld_Mainpage.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_Mainpage.cs",
+              "RelativeDocumentMoniker": "ld_Mainpage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_Mainpage.cs",
+              "RelativeToolTip": "ld_Mainpage.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwGQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ld_SeeTasks.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_SeeTasks.cs",
+              "RelativeDocumentMoniker": "ld_SeeTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_SeeTasks.cs",
+              "RelativeToolTip": "ld_SeeTasks.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAUwFYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ld_SeeTasks.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_SeeTasks.cs",
+              "RelativeDocumentMoniker": "ld_SeeTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ld_SeeTasks.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ld_SeeTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ld_UpdateLabs.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.cs",
+              "RelativeDocumentMoniker": "ld_UpdateLabs.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ld_UpdateLabs.cs",
+              "RelativeToolTip": "ld_UpdateLabs.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAcwG8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ta_GiveFeedBack.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_GiveFeedBack.cs",
+              "RelativeDocumentMoniker": "ta_GiveFeedBack.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_GiveFeedBack.cs",
+              "RelativeToolTip": "ta_GiveFeedBack.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAUwGoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ta_GiveFeedBack.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_GiveFeedBack.cs",
+              "RelativeDocumentMoniker": "ta_GiveFeedBack.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ta_GiveFeedBack.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ta_GiveFeedBack.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ta_Mainpage.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_Mainpage.cs",
+              "RelativeDocumentMoniker": "ta_Mainpage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_Mainpage.cs",
+              "RelativeToolTip": "ta_Mainpage.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAUwHcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ta_SeeTasks.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_SeeTasks.cs",
+              "RelativeDocumentMoniker": "ta_SeeTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_SeeTasks.cs",
+              "RelativeToolTip": "ta_SeeTasks.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAUwFgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ta_SeeTasks.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_SeeTasks.cs",
+              "RelativeDocumentMoniker": "ta_SeeTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ta_SeeTasks.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ta_SeeTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ta_UpdateTasks.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_UpdateTasks.cs",
+              "RelativeDocumentMoniker": "ta_UpdateTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_UpdateTasks.cs",
+              "RelativeToolTip": "ta_UpdateTasks.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAUwH0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ta_UpdateTasks.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\ta_UpdateTasks.cs",
+              "RelativeDocumentMoniker": "ta_UpdateTasks.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\ta_UpdateTasks.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\ta_UpdateTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "facultyRemove.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyRemove.cs",
+              "RelativeDocumentMoniker": "facultyRemove.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultyRemove.cs",
+              "RelativeToolTip": "facultyRemove.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAUwI0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "facultySignup.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultySignup.cs",
+              "RelativeDocumentMoniker": "facultySignup.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\facultySignup.cs",
+              "RelativeToolTip": "facultySignup.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAUwHgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FacultyView.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\FacultyView.cs",
+              "RelativeDocumentMoniker": "FacultyView.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\FacultyView.cs",
+              "RelativeToolTip": "FacultyView.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwGIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AdminUpdate.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate.cs",
+              "RelativeDocumentMoniker": "AdminUpdate.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\AdminUpdate.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\AdminUpdate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AdminRemoveCourse.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminRemoveCourse.cs",
+              "RelativeDocumentMoniker": "AdminRemoveCourse.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\AdminRemoveCourse.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\AdminRemoveCourse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AdminViewCourses.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminViewCourses.cs",
+              "RelativeDocumentMoniker": "AdminViewCourses.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminViewCourses.cs",
+              "RelativeToolTip": "AdminViewCourses.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwGAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AdminUpdate1.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate1.cs",
+              "RelativeDocumentMoniker": "AdminUpdate1.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate1.cs",
+              "RelativeToolTip": "AdminUpdate1.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwEAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AdminUpdate1.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate1.cs",
+              "RelativeDocumentMoniker": "AdminUpdate1.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\AdminUpdate1.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\AdminUpdate1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AdminUpdate2.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate2.cs",
+              "RelativeDocumentMoniker": "AdminUpdate2.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate2.cs",
+              "RelativeToolTip": "AdminUpdate2.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAUwIYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AdminUpdate2.cs [Design]",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate2.cs",
+              "RelativeDocumentMoniker": "AdminUpdate2.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\DBProjectUpdated\\AdminUpdate2.cs [Design]",
+              "RelativeToolTip": "..\\..\\DBProjectUpdated\\AdminUpdate2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-14T09:32:11.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AdminUpdate.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate.cs",
+              "RelativeDocumentMoniker": "AdminUpdate.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminUpdate.cs",
+              "RelativeToolTip": "AdminUpdate.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAUwGEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AdminRemoveCourse.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminRemoveCourse.cs",
+              "RelativeDocumentMoniker": "AdminRemoveCourse.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminRemoveCourse.cs",
+              "RelativeToolTip": "AdminRemoveCourse.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAUwHgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AdminMainPage.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminMainPage.cs",
+              "RelativeDocumentMoniker": "AdminMainPage.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminMainPage.cs",
+              "RelativeToolTip": "AdminMainPage.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAUwJ8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AdminAddNewCourse.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminAddNewCourse.cs",
+              "RelativeDocumentMoniker": "AdminAddNewCourse.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AdminAddNewCourse.cs",
+              "RelativeToolTip": "AdminAddNewCourse.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAUwH4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:11.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AddAdmin.cs",
+              "DocumentMoniker": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AddAdmin.cs",
+              "RelativeDocumentMoniker": "AddAdmin.cs",
+              "ToolTip": "D:\\Softwares\\Visual Studio\\DB\\DBProject\\Winforms\\FINAL\\Submitted\\DBProjectUpdated\\AddAdmin.cs",
+              "RelativeToolTip": "AddAdmin.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAUwFoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:32:12Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

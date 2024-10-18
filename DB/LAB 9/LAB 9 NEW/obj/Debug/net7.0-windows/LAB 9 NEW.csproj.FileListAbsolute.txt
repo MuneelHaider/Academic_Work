@@ -1,0 +1,18 @@
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\bin\Debug\net7.0-windows\LAB 9 NEW.exe
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\bin\Debug\net7.0-windows\LAB 9 NEW.deps.json
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\bin\Debug\net7.0-windows\LAB 9 NEW.runtimeconfig.json
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\bin\Debug\net7.0-windows\LAB 9 NEW.dll
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\bin\Debug\net7.0-windows\LAB 9 NEW.pdb
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB_9_NEW.Form1.resources
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB_9_NEW.Properties.Resources.resources
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.csproj.GenerateResource.cache
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.GeneratedMSBuildEditorConfig.editorconfig
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.AssemblyInfoInputs.cache
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.AssemblyInfo.cs
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.csproj.CoreCompileInputs.cache
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.dll
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\refint\LAB 9 NEW.dll
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.pdb
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB 9 NEW.genruntimeconfig.cache
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\ref\LAB 9 NEW.dll
+D:\Softwares\Visual Studio\DB\LAB 9\LAB 9 NEW\obj\Debug\net7.0-windows\LAB_9_NEW.Form2.resources

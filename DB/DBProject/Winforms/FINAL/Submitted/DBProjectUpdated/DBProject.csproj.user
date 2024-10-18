@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminAddNewCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminRemoveCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminUpdate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminUpdate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminViewCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="facultyRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="facultySignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FacultyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyAddLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyAddTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyAddTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyfeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyRemoveLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyRemoveTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyRemoveTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyViewFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyViewLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="f_facultyViewTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ld_GiveFeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ld_Mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ld_SeeTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ld_UpdateLabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ta_GiveFeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ta_Mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ta_SeeTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ta_UpdateTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
