@@ -1,0 +1,6 @@
+﻿  Q4.h
+test.obj : error LNK2005: "char * __cdecl convertToString(char *)" (?convertToString@@YAPEADPEAD@Z) already defined in Q1.obj
+test.obj : error LNK2005: "char * __cdecl convertToTapCode(char *)" (?convertToTapCode@@YAPEADPEAD@Z) already defined in Q1.obj
+test.obj : error LNK2005: "void __cdecl countLetters(char *,int * &,int &)" (?countLetters@@YAXPEADAEAPEAHAEAH@Z) already defined in Q3.obj
+test.obj : error LNK2005: "void __cdecl removePunctuation(char *)" (?removePunctuation@@YAXPEAD@Z) already defined in Q3.obj
+D:\Softwares\Visual Studio\Assignment 1\FINAL\Sample-Test1\x64\Debug\Sample-Test1.exe : fatal error LNK1169: one or more multiply defined symbols found

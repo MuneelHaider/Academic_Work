@@ -1,0 +1,4 @@
+D:\Softwares\Visual Studio\A3\FINAL A3\x64\Debug\FINAL A3.vcxproj.CopyComplete
+D:\Softwares\Visual Studio\A3\FINAL A3\x64\Debug\FINAL A3.exe
+D:\Softwares\Visual Studio\A3\FINAL A3\x64\Debug\gtest.pdb
+D:\Softwares\Visual Studio\A3\FINAL A3\x64\Debug\gtest_main.pdb
