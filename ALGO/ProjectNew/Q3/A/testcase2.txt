@@ -1,0 +1,21 @@
+A-B 10
+A-C 15
+A-D 20
+B-C 12
+B-D 18
+C-D 25
+
+A-B-C-D
+A-B-D
+A-C-D
+A-C-B-D
+A-D
+A-B
+A-C
+B-C-D
+B-D
+B-C
+C-D
+C-B-D
+
+27.25

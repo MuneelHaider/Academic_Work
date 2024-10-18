@@ -1,0 +1,14 @@
+T(9x9)
+A,B,C,B,A,B,C,T,Y,
+F,G,H,J,K,L,H,G,V,
+D,V,T,B,Y,N,G,B,G,
+F,D,G,A,B,C,V,D,E,
+V,J,O,F,G,H,H,F,W,
+S,R,V,D,V,T,W,F,G,
+K,C,D,E,C,C,A,B,C,
+X,Q,R,T,U,O,F,G,H,
+T,Y,I,O,B,F,D,V,T
+
+ABCFGHDVT
+
+3

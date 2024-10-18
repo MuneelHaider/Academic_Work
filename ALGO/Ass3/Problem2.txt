@@ -1,0 +1,11 @@
+ba(a|b|c)+db
+ababbabcabcbdbbc
+1
+abacccccbabd
+0
+
+ba(a|b|c)+db+(d|a)+bc
+ababbabcabcbdbaaddadadabcde
+1
+aabaccdbddaabbc
+0
