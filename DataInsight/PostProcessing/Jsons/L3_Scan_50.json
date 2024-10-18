@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Humera",
+"AGE": "12",
+"GENDER": "female",
+"DATE": "24-19-2019"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "tb",
+"MEDICINE NAME": "Duride ",
+"MEDICINE POWER": "40mg/5mg",
+"MEDICINE DOSE": "1+1+1	1"
+},
+{
+"MEDICINE TYPE": "inj",
+"MEDICINE NAME": "Lanoxin",
+"MEDICINE POWER": "500mcg",
+"MEDICINE DOSE": "1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Congenital heart defects",
+"HISTORY": " ",
+"BP": "130/70",
+"TEMP": "99.5",
+"WEIGHT": "38kg"
+}
+} 

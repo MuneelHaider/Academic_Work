@@ -1,0 +1,23 @@
+{
+        "pateinet info": {
+            "NAME": "Qadir",
+            "AGE": "42",
+            "GENDER": "Male",
+            "DATE": "14/04/19"
+        },
+        "MEDICINE BLOCK": [
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Myteka",
+            "MEDICINE POWER": "10mg",
+            "MEDICINE DOSE": "1+1+0"
+        }
+],
+        "DIAG BLOCK": {
+            "DIAGNOSIS": "Allergy, Asthma, Malaria",
+            "HISTORY": "Psychosis",
+            "BP": "110/73",
+            "TEMP": "96",
+            "WEIGHT": "72"
+        }
+    }

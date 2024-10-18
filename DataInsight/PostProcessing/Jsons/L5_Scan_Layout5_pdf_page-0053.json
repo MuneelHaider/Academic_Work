@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Bibi Fatma",
+"AGE": "40yrs",
+"GENDER": "M",
+"DATE": "11/Jan/23"
+},
+"MEDICINE BLOCK":[
+{
+"MEDICINE TYPE": "T",
+"MEDICINE NAME": "Kostine",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": "1+1"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Famok",
+"MEDICINE POWER": "40mg",
+"MEDICINE DOSE": " "
+},
+{
+"MEDICINE TYPE": "Cap",
+"MEDICINE NAME": "Pegalin",
+"MEDICINE POWER": "50mg",
+"MEDICINE DOSE": " "
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Diabetic",
+"HISTORY": "null",
+"BP": "BP:120/90",
+"TEMP": "102 F",
+"WEIGHT": "80kg"
+}
+}

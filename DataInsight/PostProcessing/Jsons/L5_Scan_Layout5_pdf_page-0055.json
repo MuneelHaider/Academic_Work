@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Arsalan",
+"AGE": "25",
+"GENDER": "M",
+"DATE": "8/1/23"
+},
+"MEDICINE BLOCK":[
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Myslax",
+"MEDICINE POWER": "4mg",
+"MEDICINE DOSE": " "
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Methycobal",
+"MEDICINE POWER": "500mg",
+"MEDICINE DOSE": "1+1"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Ciniqua",
+"MEDICINE POWER": "20mg",
+"MEDICINE DOSE": " "
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Fasty testosterone",
+"HISTORY": "null",
+"BP": "110/70",
+"TEMP": "null",
+"WEIGHT": "50"
+}
+}

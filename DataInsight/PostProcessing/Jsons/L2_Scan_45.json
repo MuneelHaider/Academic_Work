@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Zojaja",
+"AGE": "12",
+"GENDER": "Female",
+"DATE": "6-2-17"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "T",
+"MEDICINE NAME": "Dasirox",
+"MEDICINE POWER": "100mg",
+"MEDICINE DOSE": "1+1+1 5 months"
+},
+{
+"MEDICINE TYPE": "Tb",
+"MEDICINE NAME": "Kelfer",
+"MEDICINE POWER": "500mg",
+"MEDICINE DOSE": "1x3 10 months"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Thalassemia",
+"HISTORY": "Cousin marriages common in family",
+"BP": "132/80",
+"TEMP": "99.34",
+"WEIGHT": "32"
+}
+}

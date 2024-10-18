@@ -1,0 +1,29 @@
+{
+        "pateinet info": {
+            "NAME": "Perveen",
+            "AGE": "42",
+            "GENDER": "female",
+            "DATE": "09/02/21"
+        },
+        "MEDICINE BLOCK": [
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Cac Plus",
+            "MEDICINE POWER": "1000mg",
+            "MEDICINE DOSE": "1+1+1"
+        },
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Resochin",
+            "MEDICINE POWER": "250mg",
+            "MEDICINE DOSE": "1+1"
+        }
+],
+        "DIAG BLOCK": {
+            "DIAGNOSIS": "Bone weakness Malaria",
+            "HISTORY": "NA",
+            "BP": "120/78",
+            "TEMP": "97",
+            "WEIGHT": "53"
+        }
+    }

@@ -1,0 +1,35 @@
+{
+    "patient info": {
+        "NAME": "",
+        "AGE": "16",
+        "GENDER": "female",
+        "DATE": "25-09-2018"
+    },
+    "MEDICINE BLOCK": [
+        {
+            "MEDICINE TYPE": "tab",
+            "MEDICINE NAME": "",
+            "MEDICINE POWER": "",
+            "MEDICINE DOSE": ""
+        },
+        {
+            "MEDICINE TYPE": "gtt",
+            "MEDICINE NAME": "Cinoflox",
+            "MEDICINE POWER": "250mg ",
+            "MEDICINE DOSE": " 1 \u0686\u0645\u0686 \t \u0646\u0627\u0634\u062a\u06c1  \u0633\u06d2  \u067e\u06c1\u0644\u06d2"
+        },
+        {
+            "MEDICINE TYPE": "",
+            "MEDICINE NAME": "Tobradex",
+            "MEDICINE POWER": "0.1%/0.3% ",
+            "MEDICINE DOSE": " 1  \u0634\u0627\u0645  \u0631\u0648\u0632\u0627\u0646\u06c1 head ache"
+        }
+    ],
+    "DIAG BLOCK": {
+        "DIAGNOSIS": "Otitis externa",
+        "HISTORY": "",
+        "BP": "137/86",
+        "TEMP": "98.9",
+        "WEIGHT": "49"
+    }
+}

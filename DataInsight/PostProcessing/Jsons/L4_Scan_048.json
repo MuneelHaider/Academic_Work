@@ -1,0 +1,24 @@
+{
+"patient info": {
+"NAME": "Afzal Rana",
+"AGE": "21",
+"GENDER": "Male",
+"DATE": "28-07-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "TAB ",      
+"MEDICINE NAME": "Propranolol",
+"MEDICINE POWER": "10 mg",
+"MEDICINE DOSE": "1 Week 1 - 0 - 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS":  "Hyperthyroidism",
+"HISTORY": "Endocrinology",
+"BP": "124/78",
+"TEMP": "97",
+"WEIGHT": "71",
+"PULSE": "81"
+}
+}

@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Siddiq",
+"AGE": "76",
+"GENDER": "Male",
+"DATE": "2-1-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "Tb",
+"MEDICINE NAME": "Domptillium",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": "1x2 2 weeks"
+},
+{
+"MEDICINE TYPE": "Syp",
+"MEDICINE NAME": "Maxomide",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "1+1 14 days"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Food poisoning",
+"HISTORY": " ",
+"BP": "150/110",
+"TEMP": "98.3",
+"WEIGHT": "87"
+}
+}

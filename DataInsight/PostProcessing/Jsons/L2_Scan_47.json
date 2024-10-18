@@ -1,0 +1,23 @@
+{
+"pateinet info": {
+"NAME": "Amna",
+"AGE": "23",
+"GENDER": "Female",
+"DATE": "5-2-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "Sy",
+"MEDICINE NAME": "Diatazox",
+"MEDICINE POWER": "100mg",
+"MEDICINE DOSE": "1+0+1 5 days"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Diarrhea",
+"HISTORY": " ",
+"BP": "119/76",
+"TEMP": "98.3",
+"WEIGHT": "75"
+}
+}

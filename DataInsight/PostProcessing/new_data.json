@@ -1,0 +1,16 @@
+{
+    "patient info": {
+        "NAME": "",
+        "AGE": "",
+        "GENDER": "",
+        "DATE": ""
+    },
+    "MEDICINE BLOCK": [],
+    "DIAG BLOCK": {
+        "DIAGNOSIS": "",
+        "HISTORY": "",
+        "BP": "",
+        "TEMP": "",
+        "WEIGHT": ""
+    }
+}

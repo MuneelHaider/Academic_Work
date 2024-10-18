@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Sohaib",
+"AGE": "36",
+"GENDER": "Male",
+"DATE": "1-2-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Ascard",
+"MEDICINE POWER": "250 mg",
+"MEDICINE DOSE": "1+0+1 5 days"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Vobifen",
+"MEDICINE POWER": "200 mg",
+"MEDICINE DOSE": "\u0631\u0627\u062a \u06a9\u06d2 \u06a9\u06be\u0627\u0646\u06d2 \u06a9\u06d2 \u0628\u0639\u062f 5 \u062f\u0646"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Vobifen",
+"MEDICINE POWER": "200mg",
+"MEDICINE DOSE": "\u0631\u0627\u062a \u06a9\u06d2 \u06a9\u06be\u0627\u0646\u06d2 \u06a9\u06d2 \u0628\u0639\u062f 5 \u062f\u0646"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Pain Inflammation,Diagnosis,Diagnosis",
+"HISTORY": " ",
+"BP": "120/25",
+"TEMP": "98",
+"WEIGHT": "85"
+}
+}

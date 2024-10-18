@@ -1,0 +1,23 @@
+{
+"patient info": {
+"NAME": "Zainab Ali",
+"AGE": "33",
+"GENDER": "Female",
+"DATE": "09-05-12"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "TAB ",      
+"MEDICINE NAME": "Metformin",
+"MEDICINE POWER": "10 mg",
+"MEDICINE DOSE": "1 Month 1 - 0 - 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS":  "Diabetes",
+"HISTORY": "Endocrinology",
+"BP": "191/77",
+"TEMP": "98",
+"WEIGHT": "67"
+}
+}

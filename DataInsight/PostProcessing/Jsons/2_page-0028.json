@@ -1,0 +1,29 @@
+{
+    "patient info": {
+        "NAME": "Irfan",
+        "AGE": "88",
+        "GENDER": "Male",
+        "DATE": "15/6/2010",
+        },
+    "MEDICINE BLOCK": [{
+        "MEDICINE TYPE": "Inj",
+        "MEDICINE NAME": "Tanjeo",
+        "MEDICINE POWER": "",
+        "MEDICINE DOSE": "1+0+1",
+        }, {
+        "MEDICINE TYPE": "Tab",
+        "MEDICINE NAME": "Revolic",
+        "MEDICINE POWER": "",
+        "MEDICINE DOSE": "1+0+2",
+        },{
+        "MEDICINE TYPE": "Syp",
+        "MEDICINE NAME": "Augmentin",
+        "MEDICINE POWER": "",
+        "MEDICINE DOSE": "2 چمچ روزانہ",
+        }],
+    "DIAG BLOCK": {"DIAGNOSIS": "Fever, chest pain"},
+    "BP": "120/60",
+    "TEMP": "99",
+    "WEIGHT": "50",
+    "HIST_BLOCK": {"HISTORY": "N/A"},
+    }

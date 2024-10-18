@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Sana",
+"AGE": "16",
+"GENDER": "female",
+"DATE": "25-09-2018"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Cinoflox",
+"MEDICINE POWER": "250mg",
+"MEDICINE DOSE": "1"
+},
+{
+"MEDICINE TYPE": "gtt",
+"MEDICINE NAME": "Tobradex",
+"MEDICINE POWER": "0.1%/0.3%",
+"MEDICINE DOSE": "1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Otitis externa",
+"HISTORY": "head ache",
+"BP": "137/86",
+"TEMP": "98.9",
+"WEIGHT": "49"
+}
+}

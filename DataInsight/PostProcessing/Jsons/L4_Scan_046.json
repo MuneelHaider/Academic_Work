@@ -1,0 +1,23 @@
+{
+"patient info": {
+"NAME": "Awais Khan",
+"AGE": "41",
+"GENDER": "Male",
+"DATE": "09-12-17"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "TAB ",      
+"MEDICINE NAME": "Cabergoline",
+"MEDICINE POWER": "0.5 mg",
+"MEDICINE DOSE": "1 Week 1 - 1 - 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS":  "Prolactinoma",
+"HISTORY": "Endocrinology",
+"BP": "120/81",
+"TEMP": "98",
+"WEIGHT": "73"
+}
+}

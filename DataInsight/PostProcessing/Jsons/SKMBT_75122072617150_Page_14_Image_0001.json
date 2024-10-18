@@ -1,0 +1,35 @@
+{
+"pateinet info": {
+"NAME": "Usama",
+"AGE": "35",
+"GENDER": "Male",
+"DATE": "03-05-10"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Avelox ",
+"MEDICINE POWER": "400mg",
+"MEDICINE DOSE": "1/0/0"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Nise",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": "1+0+1"
+},
+{
+"MEDICINE TYPE": "Syp",
+"MEDICINE NAME": "Zetamax",
+"MEDICINE POWER": "200mg",
+"MEDICINE DOSE": "1 \u0631\u0648\u0632\u0627\u0646\u06c1"
+}
+],
+"DIAGNOSIS": {
+"DIAGNOSIS": "bronchitis bacterial sinusitis Pain",
+"HISTORY": "NA",
+"BP": "125/80",
+"TEMP": "98",
+"WEIGHT": "82kg"
+}
+}

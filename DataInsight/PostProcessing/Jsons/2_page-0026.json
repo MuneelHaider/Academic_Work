@@ -1,0 +1,29 @@
+{
+    "patient info": {
+        "NAME": "Taimur",
+        "AGE": "25",
+        "GENDER": "Male",
+        "DATE": "05/03/2019",
+        },
+    "MEDICINE BLOCK": [{
+        "MEDICINE TYPE": "Cap",
+        "MEDICINE NAME": "Resachin",
+        "MEDICINE POWER": "250mg",
+        "MEDICINE DOSE": "1+1+1 4 days",
+        }, {
+        "MEDICINE TYPE": "Cap",
+        "MEDICINE NAME": "Kristine",
+        "MEDICINE POWER": "100mg",
+        "MEDICINE DOSE": "1+0+1",
+        },{
+        "MEDICINE TYPE": "Cap",
+        "MEDICINE NAME": "Azomax",
+        "MEDICINE POWER": "250mg",
+        "MEDICINE DOSE": "7 days",
+        }],
+    "DIAG BLOCK": {"DIAGNOSIS": "Turboclosis"},
+    "BP": "120/85",
+    "TEMP": "96",
+    "WEIGHT": "52",
+    "HIST_BLOCK": {"HISTORY": "Allergy"},
+    }

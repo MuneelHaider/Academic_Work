@@ -1,0 +1,23 @@
+{
+"patient info": {
+"NAME": "Minahil Bibi",
+"AGE": "28",
+"GENDER": "Female",
+"DATE": "11-02-18"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "TAB",      
+"MEDICINE NAME": "Gabapentin",
+"MEDICINE POWER": "100 mg",
+"MEDICINE DOSE": "1 Month 1 - 0 - 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS":  "Menopause",
+"HISTORY": "Endocrinology",
+"BP": "117/82",
+"TEMP": "97",
+"WEIGHT": "65"
+}
+}

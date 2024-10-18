@@ -1,0 +1,29 @@
+{
+    "patient info": {
+        "NAME": "Hania",
+        "AGE": "32",
+        "GENDER": "Male",
+        "DATE": "3/4/2015",
+        },
+    "MEDICINE BLOCK": [{
+        "MEDICINE TYPE": "Cap",
+        "MEDICINE NAME": "Venticort",
+        "MEDICINE POWER": "400mg",
+        "MEDICINE DOSE": "1+0+1",
+        }, {
+        "MEDICINE TYPE": "Syp",
+        "MEDICINE NAME": "Acetyl Cough"",
+        "MEDICINE POWER": "",
+        "MEDICINE DOSE": "",
+        },{
+        "MEDICINE TYPE": "Inj",
+        "MEDICINE NAME": "Mikacin",
+        "MEDICINE POWER": "200mg",
+        "MEDICINE DOSE": "",
+        }],
+    "DIAG BLOCK": {"DIAGNOSIS": "heart burn"},
+    "BP": "N/A",
+    "TEMP": "98",
+    "WEIGHT": "55kg",
+    "HIST_BLOCK": {"HISTORY": "Fever"},
+    }

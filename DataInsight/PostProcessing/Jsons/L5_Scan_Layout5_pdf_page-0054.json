@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Faiz Ur Rehman",
+"AGE": "32yrs",
+"GENDER": "M",
+"DATE": "10/Jan/23"
+},
+"MEDICINE BLOCK":[
+{
+"MEDICINE TYPE": "Cap",
+"MEDICINE NAME": "Nexum",
+"MEDICINE POWER": "40",
+"MEDICINE DOSE": "1 night"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Pelton",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": "1+1+1"
+},
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Rostor",
+"MEDICINE POWER": "5mg",
+"MEDICINE DOSE": "1 in morning"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Metabolic Cholestrol",
+"HISTORY": "null",
+"BP": "152/100",
+"TEMP": "null",
+"WEIGHT": "49"
+}
+}

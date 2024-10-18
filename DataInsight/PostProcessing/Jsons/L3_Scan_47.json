@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Haziq",
+"AGE": "10",
+"GENDER": "Male",
+"DATE": "29-11-2019"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Syraprim",
+"MEDICINE POWER": "300mg",
+"MEDICINE DOSE": "1"
+},
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Algocin",
+"MEDICINE POWER": "250mg",
+"MEDICINE DOSE": "1 - 1 - 1 7"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Toxoplasmosis",
+"HISTORY": "",
+"BP": "110/57",
+"TEMP": "98.2",
+"WEIGHT": "25"
+}
+}

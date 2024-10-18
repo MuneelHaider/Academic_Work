@@ -1,0 +1,29 @@
+{
+        "pateinet info": {
+            "NAME": "Aslam",
+            "AGE": "52",
+            "GENDER": "Male",
+            "DATE": "04/11/20"
+        },
+        "MEDICINE BLOCK": [
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Calamax",
+            "MEDICINE POWER": "615mg",
+            "MEDICINE DOSE": "0+1+0"
+        },
+{
+            "MEDICINE TYPE": "tab",
+            "MEDICINE NAME": "Chewcal",
+            "MEDICINE POWER": "100mg",
+            "MEDICINE DOSE": "1+1+1"
+        }
+],
+        "DIAG BLOCK": {
+            "DIAGNOSIS": "Bacterial infection Bone weakness Malaria",
+            "HISTORY": "Back pain",
+            "BP": "111/74",
+            "TEMP": "96",
+            "WEIGHT": "67"
+        }
+    }

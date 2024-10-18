@@ -1,0 +1,29 @@
+{
+        "pateinet info": {
+            "NAME": "Atif",
+            "AGE": "42",
+            "GENDER": "Male",
+            "DATE": "18/03/2"
+        },
+        "MEDICINE BLOCK": [
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Nise",
+            "MEDICINE POWER": "10mg",
+            "MEDICINE DOSE": "0+1+1"
+        },
+{
+            "MEDICINE TYPE": "Tab",
+            "MEDICINE NAME": "Chewcal",
+            "MEDICINE POWER": "20mg",
+            "MEDICINE DOSE": "1+0+1"
+        }
+],
+        "DIAG BLOCK": {
+            "DIAGNOSIS": "Pain inflammation Bone weakness",
+            "HISTORY": "NA",
+            "BP": "90/70",
+            "TEMP": "96",
+            "WEIGHT": "59"
+        }
+    }

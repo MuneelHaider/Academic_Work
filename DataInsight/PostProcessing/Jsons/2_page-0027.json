@@ -1,0 +1,34 @@
+{
+    "patient info": {
+        "NAME": "Hania",
+        "AGE": "32",
+        "GENDER": "Female",
+        "DATE": "81/2/2020",
+        },
+    "MEDICINE BLOCK": [{
+        "MEDICINE TYPE": "Syp",
+        "MEDICINE NAME": "Xylor",
+        "MEDICINE POWER": "50mg",
+        "MEDICINE DOSE": "1+1+1 days",
+        }, {
+        "MEDICINE TYPE": "Tab",
+        "MEDICINE NAME": "Resozin",
+        "MEDICINE POWER": "250mg",
+        "MEDICINE DOSE": "1+0+1 4 days",
+        },{
+        "MEDICINE TYPE": "Syp",
+        "MEDICINE NAME": "Calpol",
+        "MEDICINE POWER": "6 plus",
+        "MEDICINE DOSE": "",
+        },{
+        "MEDICINE TYPE": "Inj",
+        "MEDICINE NAME": "Ivator",
+        "MEDICINE POWER": "10mg",
+        "MEDICINE DOSE": "1-1-1",
+        }],
+    "DIAG BLOCK": {"DIAGNOSIS": "Fever"},
+    "BP": "120/90",
+    "TEMP": "99",
+    "WEIGHT": "32",
+    "HIST_BLOCK": {"HISTORY": "Pain"},
+    }

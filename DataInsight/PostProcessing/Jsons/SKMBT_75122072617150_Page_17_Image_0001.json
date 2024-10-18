@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Saad",
+"AGE": "40",
+"GENDER": "Male",
+"DATE": "11-01-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE":"Tab",
+"MEDICINE NAME":"Panadol",
+"MEDICINE POWER": "500m",
+"MEDICINE DOSE": "1+1+1 30 days"
+},
+{
+"MEDICINE TYPE":"Tab",
+"MEDICINE NAME":"Myteka",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": " "
+},
+{
+"MEDICINE TYPE":"Inj",
+"MEDICINE NAME":"Vitamin D-3",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "1 \u0631\u0648\u0632\u0627\u0646\u06c1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Fever Pain Allergy Vitamin D-Deficiency",
+"HISTORY": "Cold",
+"BP": "140/80",
+"TEMP": "102",
+"WEIGHT": "85"
+}
+}

@@ -1,0 +1,28 @@
+{
+"pateinet info": {
+"NAME": "Shahid",
+"AGE": "54",
+"GENDER": "Male",
+"DATE": "20/4/2022"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "syp",
+"MEDICINE NAME": "T-Day",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "4 months 1"
+},
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Anti hist",
+"MEDICINE POWER": "10 mg",
+"MEDICINE DOSE": "25 days 0+1/2+0"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "allergy",
+"BP": "131/80",
+"TEMP": "100.2",
+"WEIGHT": "86"
+}
+}

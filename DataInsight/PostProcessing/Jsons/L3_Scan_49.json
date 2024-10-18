@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Afzal",
+"AGE": "12",
+"GENDER": "Male",
+"DATE": "25-01-2019"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "cap",
+"MEDICINE NAME": "Indomethacin",
+"MEDICINE POWER": "25mg",
+"MEDICINE DOSE": "1"
+},
+{
+"MEDICINE TYPE": "tb",
+"MEDICINE NAME": "Xiben",
+"MEDICINE POWER": "400mg",
+"MEDICINE DOSE": "1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Patent Ductus Arteriosus",
+"HISTORY": "inflamation",
+"BP": "96/48",
+"TEMP": "99",
+"WEIGHT": "39kg"
+}
+} 

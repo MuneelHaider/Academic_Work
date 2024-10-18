@@ -1,0 +1,23 @@
+{
+"pateinet info": {
+"NAME": "Ahmed",
+"AGE": "18",
+"GENDER": "Male",
+"DATE": "5-2-22"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "Sy",
+"MEDICINE NAME": "Ezcol",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "1x3 7 days"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Constipation",
+"HISTORY": " ",
+"BP": "109/77",
+"TEMP": "97.3",
+"WEIGHT": "67"
+}
+}

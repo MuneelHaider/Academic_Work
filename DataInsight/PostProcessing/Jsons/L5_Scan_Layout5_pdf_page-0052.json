@@ -1,0 +1,35 @@
+{
+"patient info": {
+"NAME": "Mrs. Shaheen",
+"AGE": "30",
+"GENDER": "F",
+"DATE": "26/11/23"
+},
+"MEDICINE BLOCK":[
+{
+"MEDICINE TYPE": "Inj",
+"MEDICINE NAME": "NOVOMIX",
+"MEDICINE POWER": "30",
+"MEDICINE DOSE": "20+20"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Glyziamet",
+"MEDICINE POWER": "50/1000",
+"MEDICINE DOSE": "1 daily"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "XIGA",
+"MEDICINE POWER": "10mg",
+"MEDICINE DOSE": "Morning 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "DAG",
+"HISTORY": "null",
+"BP": "120/80",
+"TEMP": "102 F",
+"WEIGHT": "50kg"
+}
+}

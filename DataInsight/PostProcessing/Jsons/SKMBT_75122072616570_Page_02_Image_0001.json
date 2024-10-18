@@ -1,0 +1,29 @@
+{
+        "pateinet info": {
+            "NAME": "Iqbal",
+            "AGE": "27",
+            "GENDER": "Male",
+            "DATE": "17/03/21"
+        },
+        "MEDICINE BLOCK": [
+{
+            "MEDICINE TYPE": "Syrup",
+            "MEDICINE NAME": "Acefyl Cough",
+            "MEDICINE POWER": "100mg",
+            "MEDICINE DOSE": "0+1+1"
+        },
+{
+            "MEDICINE TYPE": "Cap",
+            "MEDICINE NAME": "Zetamax",
+            "MEDICINE POWER": "1000mg",
+            "MEDICINE DOSE": "0+0+1"
+        }
+],
+        "DIAG BLOCK": {
+            "DIAGNOSIS": "Common cold, flu, Bronchitis",
+            "HISTORY": "Back pain",
+            "BP": "81/61",
+            "TEMP": "98",
+            "WEIGHT": "76"
+        }
+    }

@@ -1,0 +1,28 @@
+{
+"pateinet info": {
+"NAME": "Saeed",
+"AGE": "36",
+"GENDER": "Male",
+"DATE": "27/4/2022"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "Cineramycin",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "21 days 1"
+},
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "Euphrasia",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "2 weeks 2"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "weak eyesight",
+"BP": "120/80",
+"TEMP": "99.5",
+"WEIGHT": "59"
+}
+}

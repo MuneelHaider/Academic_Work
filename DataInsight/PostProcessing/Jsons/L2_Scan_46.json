@@ -1,0 +1,23 @@
+{
+"pateinet info": {
+"NAME": "Tamjeed",
+"AGE": "15",
+"GENDER": "Male",
+"DATE": "3-2-15"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "C",
+"MEDICINE NAME": "Onbrez",
+"MEDICINE POWER": "150mg",
+"MEDICINE DOSE": "1-1 2 weeks"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Asthama",
+"HISTORY": " ",
+"BP": "122/80",
+"TEMP": "99.24",
+"WEIGHT": "75"
+}
+}

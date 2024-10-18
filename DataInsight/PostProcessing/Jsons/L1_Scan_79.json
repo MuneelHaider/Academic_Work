@@ -1,0 +1,28 @@
+{
+"pateinet info": {
+"NAME": "Kamal",
+"AGE": "45",
+"GENDER": "Male",
+"DATE": "29/10/2022"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "Vuity",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "10 days 6"
+},
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "Cineraria",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "1 week 2"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "weak eyesight",
+"BP": "126/89",
+"TEMP": "100.5",
+"WEIGHT": "67"
+}
+}

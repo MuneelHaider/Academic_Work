@@ -1,0 +1,47 @@
+{
+"patient info": {
+"NAME": "Musa Cheema",
+"AGE": "82",
+"GENDER": "M",
+"DATE": "12 Dec 2022"
+},
+"MEDICINE BLOCK":[
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Osonate D",
+"MEDICINE POWER": "",
+"MEDICINE DOSE": "1+1+1"
+},
+{
+"MEDICINE TYPE": "Cap",
+"MEDICINE NAME": "Azomax",
+"MEDICINE POWER": "",
+"MEDICINE DOSE": "صبح شام"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Provident Solution",
+"MEDICINE POWER": "",
+"MEDICINE DOSE": "2+2+2"
+},
+{
+"MEDICINE TYPE": "Tab",
+"MEDICINE NAME": "Soflin",
+"MEDICINE POWER": "",
+"MEDICINE DOSE": "1 صبح"
+},
+{
+"MEDICINE TYPE": "Injection",
+"MEDICINE NAME": "Insulin",
+"MEDICINE POWER": "20mg",
+"MEDICINE DOSE": "1+1+1 Before Breakfast"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Headache,Liver Inf, Lethargic",
+"HISTORY": "null",
+"BP": "120/90",
+"TEMP": "100",
+"WEIGHT": "102"
+}
+}

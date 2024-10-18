@@ -1,0 +1,23 @@
+{
+"patient info": {
+"NAME": "Nawaz Ali",
+"AGE": "65",
+"GENDER": "Male",
+"DATE": "13-07-20"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "TAB ",      
+"MEDICINE NAME": "Tofranil",
+"MEDICINE POWER": "25 mg",
+"MEDICINE DOSE": "1 Week 1 - 0 - 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS":  "Esophageal Spasm",
+"HISTORY": "Gastroenterology",
+"BP": "124/83",
+"TEMP": "99",
+"WEIGHT": "83"
+}
+}

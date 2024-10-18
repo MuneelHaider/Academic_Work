@@ -1,0 +1,29 @@
+{
+   "patient info": {
+        "NAME": "Sana",
+        "AGE": "33",
+        "GENDER": "Female",
+        "DATE": "03/3/2003",
+        },
+    "MEDICINE BLOCK": [{
+        "MEDICINE TYPE": "Tab",
+        "MEDICINE NAME": "Ventok",
+        "MEDICINE POWER": "10mg",
+        "MEDICINE DOSE": "1 رات کو",
+        }, {
+        "MEDICINE TYPE": "Tab",
+        "MEDICINE NAME": "Rifagut",
+        "MEDICINE POWER": "400mg",
+        "MEDICINE DOSE": "1+0+1",
+        },{
+        "MEDICINE TYPE": "Syp",
+        "MEDICINE NAME": "Calpol",
+        "MEDICINE POWER": "",
+        "MEDICINE DOSE": "1 چمچ صبح شام",
+        }],
+    "DIAG BLOCK": {"DIAGNOSIS": "Chest Pain,Fever"},
+    "BP": "120/57",
+    "TEMP": "98",
+    "WEIGHT": "70kg",
+    "HIST_BLOCK": {"HISTORY": "Turboclosis"},
+    }

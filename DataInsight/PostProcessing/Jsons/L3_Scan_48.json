@@ -1,0 +1,29 @@
+{
+"pateinet info": {
+"NAME": "Humayun",
+"AGE": "8",
+"GENDER": "Male",
+"DATE": "17-02-2009"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "ointment",
+"MEDICINE NAME": "Cortisporin Eye",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": " "
+},
+{
+"MEDICINE TYPE": "tb",
+"MEDICINE NAME": "Deltacortril",
+"MEDICINE POWER": "5mg",
+"MEDICINE DOSE": "1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "Muscular dystrophy",
+"HISTORY": " ",
+"BP": "110/58",
+"TEMP": "99",
+"WEIGHT": "19kg"
+}
+} 

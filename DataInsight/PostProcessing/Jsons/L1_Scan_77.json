@@ -1,0 +1,28 @@
+{
+"pateinet info": {
+"NAME": "Waheed",
+"AGE": "32",
+"GENDER": "Male",
+"DATE": "2/4/2022"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "Lyzim",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "20 days 0+0+1"
+},
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "Euphrasia",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "2 months 1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "weak eyesight",
+"BP": "128/70",
+"TEMP": "98.1",
+"WEIGHT": "65"
+}
+}

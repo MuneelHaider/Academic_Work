@@ -1,0 +1,28 @@
+{
+"pateinet info": {
+"NAME": "Nisar",
+"AGE": "43",
+"GENDER": "Male",
+"DATE": "2/4/2022"
+},
+"MEDICINE BLOCK": [
+{
+"MEDICINE TYPE": "drops",
+"MEDICINE NAME": "SyniGan",
+"MEDICINE POWER": "5 ml",
+"MEDICINE DOSE": "4 months 1"
+},
+{
+"MEDICINE TYPE": "tab",
+"MEDICINE NAME": "EyeVit",
+"MEDICINE POWER": " ",
+"MEDICINE DOSE": "25 days 0+0+1"
+}
+],
+"DIAG BLOCK": {
+"DIAGNOSIS": "weak eyesight",
+"BP": "134/80",
+"TEMP": "99.2",
+"WEIGHT": "86"
+}
+}
