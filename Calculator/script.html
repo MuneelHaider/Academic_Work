@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muneel Haider 21i-0640 - Display Colors</title>
+</head>
+<body>
+    <div class="intro">
+        <h1>Muneel Haider 21i-0640</h1>
+    </div>
+
+    <button onclick="displayColors()">Show Colors</button>
+    <div id="colors"></div>
+
+    <script type="text/javascript">
+        var colors = new Array();
+        colors[0] = "red";
+        colors[1] = "blue";
+        colors[2] = "green";
+
+        function displayColors() {
+            var output = "";
+            for (var i = 0; i < colors.length; i++) {
+                output += colors[i] + "<br>";
+            }
+            document.getElementById("colors").innerHTML = output;
+        }
+    </script>
+</body>
+</html>
