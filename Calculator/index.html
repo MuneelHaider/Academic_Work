@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muneel Haider 21i-0640 - 4x4 Calculator </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="intro">
+        <h1>Calculator Task</h1>
+        <h2>Done by Muneel Haider - 21i0640</h2>
+    </div>
+    <div class="calculator">
+        <input type="text" id="result" disabled>
+        <div class="buttons">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operation">/</button>
+
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operation">*</button>
+
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operation">-</button>
+
+            <button class="number">0</button>
+            <button id="clear">C</button>
+            <button id="equal">=</button>
+            <button class="operation">+</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+
+            let displayString = "";
+    
+            function showDisplay() {
+                $("#result").val(displayString);
+            }
+    
+            $(".number, .operation").click(function(){
+                displayString += $(this).text();
+                showDisplay();
+            });
+    
+            $("#equal").click(function(){
+                if(displayString !== ""){
+                    try {
+                        displayString = eval(displayString);
+                        showDisplay();
+                    } catch {
+                        $("#result").val("Error");
+                        displayString = "";
+                    }
+                }
+            });
+    
+            $("#clear").click(function(){
+                displayString = "";
+                showDisplay();
+            });
+    
+            $(document).keydown(function(event){
+                let key = event.key;
+    
+                if(/[0-9+\-*/]/.test(key)) {
+                    displayString += key;
+                    showDisplay();
+
+                } else if(key === "Enter") {
+                    event.preventDefault(); 
+                    $("#equal").click();
+                    
+                } else if(key === "Backspace") {
+                    event.preventDefault(); 
+                    $("#clear").click();
+                }
+            });
+        });
+    </script>
+
+    <br>
+
+    <div class="footer">
+        <h2>The following calcultor is made using simple JQuery and html/css.</h2>
+    </div>
+
+</body>
+</html>
