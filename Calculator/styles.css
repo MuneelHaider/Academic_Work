@@ -5,12 +5,13 @@ body {
 }
 
 .calculator {
-    width: 250px;
+    width: 320px;
     margin: auto;
     padding: 20px;
     border: 2px solid #000;
     border-radius: 10px;
     background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 #result {
@@ -28,21 +29,32 @@ body {
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 8px;
+    padding: 5px;
 }
 
 button {
-    width: 60px;
+    width: 100%;
     height: 60px;
     font-size: 20px;
     border: 2px solid #000;
     border-radius: 5px;
     cursor: pointer;
     background-color: #e0e0e0;
+    transition: background 0.3s ease;
+}
+
+button.number, button.decimal {
+    background-color: #f8f9fa;
 }
 
 button.operation {
     background-color: #ff9f00;
+    color: white;
+}
+
+button.operator {
+    background-color: #007bff;
     color: white;
 }
 
@@ -64,10 +76,52 @@ button.operation:hover {
     background-color: #ff7700;
 }
 
+button.operator:hover {
+    background-color: #0056b3;
+}
+
 button#clear:hover {
     background-color: #d43f3f;
 }
 
 button#equal:hover {
     background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+    .calculator {
+        width: 280px;
+        padding: 15px;
+    }
+
+    button {
+        height: 55px;
+        font-size: 18px;
+    }
+
+    #result {
+        font-size: 20px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .calculator {
+        width: 250px;
+        padding: 10px;
+    }
+
+    button {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    .buttons {
+        gap: 6px;
+    }
 }
