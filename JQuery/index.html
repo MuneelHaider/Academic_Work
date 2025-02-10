@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <h3>Store</h3>
+    <div id="store">
+        <label><input type="checkbox" class="cart-checkbox" data-item="Burger"> Burger</label><br>
+        <label><input type="checkbox" class="cart-checkbox" data-item="Fries"> Fries</label><br>
+        <label><input type="checkbox" class="cart-checkbox" data-item="Drinks"> Drinks</label><br>
+    </div>
+
+    <h3>Cart</h3>
+    <div id="cart">
+        <ul id="cart-items"></ul>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".cart-checkbox").change(function () {
+                var item = $(this).data("item");
+                if ($(this).is(":checked")) {
+                    var listItem = $("<li class='cart-item' data-item='" + item + "'>" + item + "</li>");
+                    $("#cart-items").append(listItem);
+                } else {
+                    $("#cart-items").find("[data-item='" + item + "']").remove();
+                }
+            });
+
+            $("#checkout").click(function () {
+                if ($("#cart-items").children().length > 0) {
+                    alert("Thank you for your purchase!");
+                    $("#cart-items").empty();
+                    $(".cart-checkbox").prop("checked", false);
+                } else {
+                    alert("Your cart is empty!");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
