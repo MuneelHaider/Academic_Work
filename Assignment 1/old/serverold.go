@@ -6,6 +6,7 @@ import (
 	"net"
 	"strings"
 	"sync"
+	"time"
 )
 
 type Task struct {
@@ -21,11 +22,10 @@ type Worker struct {
 }
 
 var (
-	workers       []*Worker
-	clientMap     = make(map[string]net.Conn)
-	clientMapLock sync.Mutex
-	taskQueue     []Task
-	workerLock    sync.Mutex
+	workers    []*Worker
+	clientMap  sync.Map // Use sync.Map to store client connections
+	taskQueue  []Task
+	workerLock sync.Mutex
 )
 
 func main() {
@@ -38,6 +38,7 @@ func main() {
 
 	fmt.Println("Server is running on port 12345...")
 
+	// Handle incoming connections
 	for {
 		conn, err := listener.Accept()
 		if err != nil {
@@ -69,36 +70,52 @@ func handleConnection(conn net.Conn) {
 
 		switch parts[0] {
 		case "WORKER":
+			// Register a new worker
 			worker := &Worker{Conn: conn, Workload: 0}
 			workers = append(workers, worker)
 			fmt.Printf("New worker added! Total workers: %d\n", len(workers))
 
 		case "CLIENT":
-			if len(parts) < 5 {
-				conn.Write([]byte("Invalid task format\n"))
+			// Register a new client
+			if len(parts) < 2 {
+				fmt.Println("Invalid client format received:", message)
 				continue
 			}
 			clientID := parts[1]
+			clientMap.Store(clientID, conn)
+			fmt.Printf("Client %s connected.\n", clientID)
+
+		case "TASK":
+			// Receive a task from a client
+			if len(parts) < 5 {
+				fmt.Println("Invalid task format received:", message)
+				continue
+			}
+			clientID := parts[1]
+			operation := parts[2]
+			matrixA := parts[3]
+			matrixB := parts[4]
+
+			// Create a new task
 			task := Task{
 				ClientID:  clientID,
-				Operation: parts[2],
-				MatrixA:   parts[3],
-				MatrixB:   parts[4],
+				Operation: operation,
+				MatrixA:   matrixA,
+				MatrixB:   matrixB,
 			}
 
-			clientMapLock.Lock()
-			clientMap[clientID] = conn
-			clientMapLock.Unlock()
-
-			fmt.Printf("Task received from client %s: %s|%s|%s\n", clientID, task.Operation, task.MatrixA, task.MatrixB)
-
+			// Add the task to the queue
 			workerLock.Lock()
 			taskQueue = append(taskQueue, task)
 			workerLock.Unlock()
 
+			fmt.Printf("Task received from client %s: %s|%s|%s\n", clientID, operation, matrixA, matrixB)
+
+			// Assign tasks to workers
 			go assignTasks()
 
 		case "RESULT":
+			// Receive a result from a worker
 			if len(parts) < 3 {
 				fmt.Println("Invalid result format received:", message)
 				continue
@@ -106,13 +123,15 @@ func handleConnection(conn net.Conn) {
 			clientID := parts[1]
 			result := strings.Join(parts[2:], "|")
 
-			clientMapLock.Lock()
-			client, exists := clientMap[clientID]
-			clientMapLock.Unlock()
-
+			// Send the result back to the client
+			client, exists := clientMap.Load(clientID)
 			if exists {
-				client.Write([]byte(result + "\n"))
-				fmt.Printf("Result sent to client %s: %s\n", clientID, result)
+				_, err := client.(net.Conn).Write([]byte("RESULT|" + result + "\n"))
+				if err != nil {
+					fmt.Println("Error sending result to client:", err)
+				} else {
+					fmt.Printf("Result sent to client %s: %s\n", clientID, result)
+				}
 			} else {
 				fmt.Println("Client not found for result:", result)
 			}
@@ -141,11 +160,30 @@ func assignTasks() {
 		fmt.Printf("Task assigned to worker: %s|%s|%s\n", task.Operation, task.MatrixA, task.MatrixB)
 
 		// Send task to worker
-		leastBusyWorker.Conn.Write([]byte("TASK|" + task.ClientID + "|" + task.Operation + "|" + task.MatrixA + "|" + task.MatrixB + "\n"))
+		_, err := leastBusyWorker.Conn.Write([]byte("TASK|" + task.ClientID + "|" + task.Operation + "|" + task.MatrixA + "|" + task.MatrixB + "\n"))
+		if err != nil {
+			fmt.Println("Error sending task to worker:", err)
+			removeWorker(leastBusyWorker)
+			continue
+		}
 
 		// Decrease workload after task is processed
 		go func(worker *Worker) {
+			time.Sleep(1 * time.Second) // Simulate task processing time
 			worker.Workload--
 		}(leastBusyWorker)
+	}
+}
+
+func removeWorker(worker *Worker) {
+	workerLock.Lock()
+	defer workerLock.Unlock()
+
+	for i, w := range workers {
+		if w == worker {
+			workers = append(workers[:i], workers[i+1:]...)
+			fmt.Println("Worker removed! Remaining workers:", len(workers))
+			return
+		}
 	}
 }
