@@ -17,7 +17,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	// Generate a unique client ID (e.g., timestamp)
+	// Generate a unique client ID
 	clientID := fmt.Sprintf("%d", time.Now().UnixNano())
 
 	reader := bufio.NewReader(os.Stdin)

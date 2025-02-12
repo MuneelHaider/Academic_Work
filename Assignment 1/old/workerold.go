@@ -30,74 +30,64 @@ func main() {
 		task = strings.TrimSpace(task)
 		parts := strings.Split(task, "|")
 
-		if len(parts) < 3 {
+		if len(parts) < 5 {
 			fmt.Println("Invalid task format received:", task)
 			continue
 		}
 
-		clientID := parts[1] // Extract client ID
+		clientID := parts[1]
 		operation := parts[2]
+		matrixA := parts[3]
+		matrixB := parts[4]
 
-		var result string
+		fmt.Printf("Received task from client %s: %s|%s|%s\n", clientID, operation, matrixA, matrixB)
 
-		if operation == "ADD" {
-			if len(parts) < 5 {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrices\n"))
-				continue
-			}
+		// Process the task
+		result := processTask(operation, matrixA, matrixB)
 
-			matrixA := parseMatrix(parts[3])
-			matrixB := parseMatrix(parts[4])
-
-			if matrixA == nil || matrixB == nil || !isSameSize(matrixA, matrixB) {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrices\n"))
-				continue
-			}
-
-			result = matrixToString(addMatrices(matrixA, matrixB))
-		} else if operation == "MUL" {
-			if len(parts) < 5 {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrices\n"))
-				continue
-			}
-
-			matrixA := parseMatrix(parts[3])
-			matrixB := parseMatrix(parts[4])
-
-			if matrixA == nil || matrixB == nil {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrices\n"))
-				continue
-			}
-
-			multiplied, err := multiplyMatrices(matrixA, matrixB)
-			if err != nil {
-				conn.Write([]byte("RESULT|" + clientID + "|Multiplication not possible\n"))
-				continue
-			}
-			result = matrixToString(multiplied)
-		} else if operation == "TRANSPOSE" {
-			if len(parts) < 4 {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrix\n"))
-				continue
-			}
-
-			matrix := parseMatrix(parts[3])
-			if matrix == nil {
-				conn.Write([]byte("RESULT|" + clientID + "|Invalid matrix\n"))
-				continue
-			}
-
-			result = matrixToString(transposeMatrix(matrix))
-		} else {
-			conn.Write([]byte("RESULT|" + clientID + "|Invalid operation\n"))
-			continue
-		}
-
+		// Send result back to server
 		conn.Write([]byte("RESULT|" + clientID + "|" + result + "\n"))
+		fmt.Printf("Result sent to server for client %s: %s\n", clientID, result)
 	}
 }
 
-// Convert a matrix string to a 2D integer array
+func processTask(operation, matrixA, matrixB string) string {
+	switch operation {
+	case "ADD":
+		m1 := parseMatrix(matrixA)
+		m2 := parseMatrix(matrixB)
+
+		if m1 == nil || m2 == nil || !isSameSize(m1, m2) {
+			return "Invalid matrices"
+		}
+
+		return matrixToString(addMatrices(m1, m2))
+	case "MUL":
+		m1 := parseMatrix(matrixA)
+		m2 := parseMatrix(matrixB)
+
+		if m1 == nil || m2 == nil {
+			return "Invalid matrices"
+		}
+
+		multiplied, err := multiplyMatrices(m1, m2)
+		if err != nil {
+			return "Multiplication not possible"
+		}
+		return matrixToString(multiplied)
+	case "TRANSPOSE":
+		m := parseMatrix(matrixA)
+		if m == nil {
+			return "Invalid matrix"
+		}
+
+		return matrixToString(transposeMatrix(m))
+	default:
+		return "Invalid operation"
+	}
+}
+
+// Matrix helper functions
 func parseMatrix(data string) [][]int {
 	rows := strings.Split(data, ";")
 	matrix := [][]int{}
@@ -119,7 +109,6 @@ func parseMatrix(data string) [][]int {
 	return matrix
 }
 
-// Ensure both matrices have the same dimensions
 func isSameSize(a, b [][]int) bool {
 	if len(a) != len(b) {
 		return false
@@ -132,7 +121,6 @@ func isSameSize(a, b [][]int) bool {
 	return true
 }
 
-// Perform matrix addition
 func addMatrices(a, b [][]int) [][]int {
 	rows := len(a)
 	cols := len(a[0])
@@ -148,7 +136,6 @@ func addMatrices(a, b [][]int) [][]int {
 	return result
 }
 
-// Perform matrix multiplication
 func multiplyMatrices(a, b [][]int) ([][]int, error) {
 	if len(a[0]) != len(b) {
 		return nil, fmt.Errorf("invalid dimensions for multiplication")
@@ -169,7 +156,6 @@ func multiplyMatrices(a, b [][]int) ([][]int, error) {
 	return result, nil
 }
 
-// Perform matrix transpose
 func transposeMatrix(matrix [][]int) [][]int {
 	rows := len(matrix)
 	cols := len(matrix[0])
@@ -185,7 +171,6 @@ func transposeMatrix(matrix [][]int) [][]int {
 	return transposed
 }
 
-// Convert a 2D integer matrix to a formatted string
 func matrixToString(matrix [][]int) string {
 	var result strings.Builder
 	for i, row := range matrix {

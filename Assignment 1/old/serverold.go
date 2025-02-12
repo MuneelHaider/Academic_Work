@@ -8,10 +8,24 @@ import (
 	"sync"
 )
 
+type Task struct {
+	ClientID  string
+	Operation string
+	MatrixA   string
+	MatrixB   string
+}
+
+type Worker struct {
+	Conn     net.Conn
+	Workload int
+}
+
 var (
-	workers       []net.Conn
-	clientMap     = make(map[string]net.Conn) // Store client connections
-	clientMapLock sync.Mutex                  // Synchronization lock for map access
+	workers       []*Worker
+	clientMap     = make(map[string]net.Conn)
+	clientMapLock sync.Mutex
+	taskQueue     []Task
+	workerLock    sync.Mutex
 )
 
 func main() {
@@ -36,13 +50,13 @@ func main() {
 }
 
 func handleConnection(conn net.Conn) {
+	defer conn.Close()
 	reader := bufio.NewReader(conn)
 
 	for {
 		message, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Println("Client disconnected.")
-			conn.Close()
 			return
 		}
 
@@ -55,33 +69,34 @@ func handleConnection(conn net.Conn) {
 
 		switch parts[0] {
 		case "WORKER":
-			workers = append(workers, conn)
+			worker := &Worker{Conn: conn, Workload: 0}
+			workers = append(workers, worker)
 			fmt.Printf("New worker added! Total workers: %d\n", len(workers))
 
 		case "CLIENT":
-			if len(parts) < 3 {
+			if len(parts) < 5 {
 				conn.Write([]byte("Invalid task format\n"))
 				continue
 			}
 			clientID := parts[1]
-			task := strings.Join(parts[2:], "|") // Reconstruct the task
+			task := Task{
+				ClientID:  clientID,
+				Operation: parts[2],
+				MatrixA:   parts[3],
+				MatrixB:   parts[4],
+			}
 
-			// Store client connection
 			clientMapLock.Lock()
 			clientMap[clientID] = conn
 			clientMapLock.Unlock()
 
-			if len(workers) > 0 {
-				worker := workers[0]
-				workers = workers[1:] // Round-robin worker selection
+			fmt.Printf("Task received from client %s: %s|%s|%s\n", clientID, task.Operation, task.MatrixA, task.MatrixB)
 
-				// Send task to worker with client ID
-				worker.Write([]byte("TASK|" + clientID + "|" + task + "\n"))
-				workers = append(workers, worker) // Worker goes back to the pool
-				fmt.Println("Task assigned to worker:", task)
-			} else {
-				conn.Write([]byte("No available workers\n"))
-			}
+			workerLock.Lock()
+			taskQueue = append(taskQueue, task)
+			workerLock.Unlock()
+
+			go assignTasks()
 
 		case "RESULT":
 			if len(parts) < 3 {
@@ -89,18 +104,48 @@ func handleConnection(conn net.Conn) {
 				continue
 			}
 			clientID := parts[1]
-			result := strings.Join(parts[2:], "|") // Preserve full result
+			result := strings.Join(parts[2:], "|")
 
 			clientMapLock.Lock()
 			client, exists := clientMap[clientID]
 			clientMapLock.Unlock()
 
 			if exists {
-				client.Write([]byte("RESULT|" + result + "\n"))
-				fmt.Println("Result sent to client:", result)
+				client.Write([]byte(result + "\n"))
+				fmt.Printf("Result sent to client %s: %s\n", clientID, result)
 			} else {
 				fmt.Println("Client not found for result:", result)
 			}
 		}
+	}
+}
+
+func assignTasks() {
+	workerLock.Lock()
+	defer workerLock.Unlock()
+
+	for len(taskQueue) > 0 && len(workers) > 0 {
+		// Find the least busy worker
+		var leastBusyWorker *Worker
+		for _, worker := range workers {
+			if leastBusyWorker == nil || worker.Workload < leastBusyWorker.Workload {
+				leastBusyWorker = worker
+			}
+		}
+
+		// Assign the task to the least busy worker
+		task := taskQueue[0]
+		taskQueue = taskQueue[1:]
+
+		leastBusyWorker.Workload++
+		fmt.Printf("Task assigned to worker: %s|%s|%s\n", task.Operation, task.MatrixA, task.MatrixB)
+
+		// Send task to worker
+		leastBusyWorker.Conn.Write([]byte("TASK|" + task.ClientID + "|" + task.Operation + "|" + task.MatrixA + "|" + task.MatrixB + "\n"))
+
+		// Decrease workload after task is processed
+		go func(worker *Worker) {
+			worker.Workload--
+		}(leastBusyWorker)
 	}
 }
