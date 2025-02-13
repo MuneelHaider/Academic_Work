@@ -18,7 +18,6 @@ type TaskRequest struct {
 }
 
 func main() {
-
 	tlsConfig := &tls.Config{InsecureSkipVerify: true}
 
 	fmt.Println("[CLIENT] Connecting to server on port 6000...")

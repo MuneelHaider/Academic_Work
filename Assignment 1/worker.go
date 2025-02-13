@@ -11,19 +11,19 @@ import (
 func main() {
 	conn, err := net.Dial("tcp", "localhost:6001")
 	if err != nil {
-		fmt.Println("[WORKER] ❌ Error connecting to server:", err)
+		fmt.Println("[WORKER] Error connecting to server:", err)
 		return
 	}
 	defer conn.Close()
 
-	fmt.Println("[WORKER] ✅ Worker connected. Waiting for tasks...")
+	fmt.Println("[WORKER] Worker connected. Waiting for tasks...")
 
 	reader := bufio.NewReader(conn)
 
 	for {
 		task, err := reader.ReadString('\n')
 		if err != nil {
-			fmt.Println("[WORKER] ❌ Disconnected. Reconnecting...")
+			fmt.Println("[WORKER] Disconnected. Reconnecting...")
 			return
 		}
 
@@ -31,7 +31,7 @@ func main() {
 		parts := strings.Split(task, "|")
 
 		if len(parts) < 5 || parts[0] != "TASK" {
-			fmt.Println("[WORKER] ❌ Invalid task format received:", task)
+			fmt.Println("[WORKER] Invalid task format received:", task)
 			continue
 		}
 
@@ -40,12 +40,12 @@ func main() {
 		matrixA := parts[3]
 		matrixB := parts[4]
 
-		fmt.Printf("[WORKER] 📥 Received task: %s|%s|%s\n", operation, matrixA, matrixB)
+		fmt.Printf("[WORKER] Received task: %s|%s|%s\n", operation, matrixA, matrixB)
 
 		result := processTask(operation, matrixA, matrixB)
 
 		conn.Write([]byte(fmt.Sprintf("RESULT|%s|%s\n", clientID, result)))
-		fmt.Printf("[WORKER] ✅ Result sent: %s\n", result)
+		fmt.Printf("[WORKER] Result sent: %s\n", result)
 	}
 }
 
@@ -83,7 +83,6 @@ func processTask(operation, matrixA, matrixB string) string {
 	}
 }
 
-// 🛠️ **Matrix Helper Functions**
 func parseMatrix(data string) [][]int {
 	rows := strings.Split(data, ";")
 	matrix := [][]int{}
