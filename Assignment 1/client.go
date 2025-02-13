@@ -1,7 +1,7 @@
 package main
 
 /*
-Blockchain Assignment 2 - Section B
+Blockchain Assignment 1 - Section B
 
 Muneel Haider		21i-0640
 Abdullah Zahoor		21i-2481
