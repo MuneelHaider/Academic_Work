@@ -2,11 +2,12 @@ package main
 
 import (
 	"bufio"
+	"crypto/tls"
 	"fmt"
 	"net"
+	"net/rpc"
 	"strings"
 	"sync"
-	"time"
 )
 
 type Task struct {
@@ -16,144 +17,129 @@ type Task struct {
 	MatrixB   string
 }
 
-type Worker struct {
-	Conn     net.Conn
-	Workload int
+type Server struct {
+	Tasks     []Task
+	TaskQueue chan Task
+	Workers   []net.Conn
+	Results   map[string]string
+	mu        sync.Mutex
 }
 
-var (
-	workers       []*Worker
-	clientMap     = make(map[string]net.Conn)
-	clientMapLock sync.Mutex
-	taskQueue     []Task
-	workerLock    sync.Mutex
-)
+// Submit task via RPC (Client -> Server)
+func (s *Server) SubmitTask(task Task, reply *string) error {
+	fmt.Printf("[SERVER] 📥 Received task from Client %s: %s\n", task.ClientID, task.Operation)
+	s.mu.Lock()
+	s.TaskQueue <- task
+	s.mu.Unlock()
+	*reply = "Task received and queued"
+	return nil
+}
 
-func main() {
-	listener, err := net.Listen("tcp", ":12345")
-	if err != nil {
-		fmt.Println("Error starting server:", err)
-		return
+// Retrieve result via RPC (Client -> Server)
+func (s *Server) GetResult(clientID string, reply *string) error {
+	fmt.Printf("[SERVER] 🕒 Client %s waiting for result...\n", clientID)
+	for {
+		s.mu.Lock()
+		if result, exists := s.Results[clientID]; exists {
+			fmt.Printf("[SERVER] ✅ Result sent to Client %s: %s\n", clientID, result)
+			*reply = result
+			delete(s.Results, clientID)
+			s.mu.Unlock()
+			return nil
+		}
+		s.mu.Unlock()
 	}
-	defer listener.Close()
+}
 
-	fmt.Println("Server is running on port 12345...")
-
+// Accept worker connections via TCP
+func (s *Server) HandleWorkerConnections(listener net.Listener) {
 	for {
 		conn, err := listener.Accept()
 		if err != nil {
-			fmt.Println("Error accepting connection:", err)
+			fmt.Println("[SERVER] ❌ Worker connection error:", err)
 			continue
 		}
 
-		go handleConnection(conn)
+		fmt.Println("[SERVER] ✅ New worker connected.")
+		s.mu.Lock()
+		s.Workers = append(s.Workers, conn)
+		s.mu.Unlock()
+
+		go s.AssignTasksToWorker(conn)
 	}
 }
 
-func handleConnection(conn net.Conn) {
-	defer conn.Close()
-	reader := bufio.NewReader(conn)
+// Assign tasks to workers via TCP
+func (s *Server) AssignTasksToWorker(worker net.Conn) {
+	reader := bufio.NewReader(worker)
 
-	for {
-		message, err := reader.ReadString('\n')
+	for task := range s.TaskQueue {
+		taskString := fmt.Sprintf("TASK|%s|%s|%s|%s\n", task.ClientID, task.Operation, task.MatrixA, task.MatrixB)
+		worker.Write([]byte(taskString))
+
+		result, err := reader.ReadString('\n')
 		if err != nil {
-			fmt.Println("Client disconnected.")
+			fmt.Println("[SERVER] ❌ Worker disconnected, reassigning task.")
+			s.mu.Lock()
+			s.TaskQueue <- task
+			s.mu.Unlock()
 			return
 		}
 
-		message = strings.TrimSpace(message)
-		parts := strings.Split(message, "|")
-
-		if len(parts) == 0 {
+		parts := strings.Split(strings.TrimSpace(result), "|")
+		if len(parts) < 3 || parts[0] != "RESULT" {
+			fmt.Println("[SERVER] ❌ Invalid result format from worker:", result)
 			continue
 		}
 
-		switch parts[0] {
-		case "WORKER":
-			worker := &Worker{Conn: conn, Workload: 0}
-			workers = append(workers, worker)
-			fmt.Printf("New worker added! Total workers: %d\n", len(workers))
-
-		case "CLIENT":
-			if len(parts) < 3 {
-				conn.Write([]byte("Invalid task format\n"))
-				continue
-			}
-			clientID := parts[1]
-			task := Task{
-				ClientID:  clientID,
-				Operation: parts[2],
-				MatrixA:   parts[3],
-				MatrixB:   parts[4],
-			}
-
-			clientMapLock.Lock()
-			clientMap[clientID] = conn
-			clientMapLock.Unlock()
-
-			fmt.Printf("Task received from client %s: %s|%s|%s\n", clientID, task.Operation, task.MatrixA, task.MatrixB)
-
-			workerLock.Lock()
-			taskQueue = append(taskQueue, task)
-			workerLock.Unlock()
-
-			go assignTasks()
-
-		case "RESULT":
-			if len(parts) < 3 {
-				fmt.Println("Invalid result format received:", message)
-				continue
-			}
-			clientID := parts[1]
-			result := strings.Join(parts[2:], "|")
-
-			clientMapLock.Lock()
-			client, exists := clientMap[clientID]
-			clientMapLock.Unlock()
-
-			if exists {
-				client.Write([]byte("RESULT|" + result + "\n"))
-				fmt.Printf("Result sent to client %s: %s\n", clientID, result)
-			} else {
-				fmt.Println("Client not found for result:", result)
-			}
-		}
+		clientID := parts[1]
+		s.mu.Lock()
+		s.Results[clientID] = parts[2]
+		s.mu.Unlock()
+		fmt.Printf("[SERVER] ✅ Result stored for Client %s: %s\n", clientID, parts[2])
 	}
 }
 
-func assignTasks() {
-	workerLock.Lock()
-	defer workerLock.Unlock()
-
-	for len(taskQueue) > 0 && len(workers) > 0 {
-		// Find the least busy worker
-		var leastBusyWorker *Worker
-		for _, worker := range workers {
-			if leastBusyWorker == nil || worker.Workload < leastBusyWorker.Workload {
-				leastBusyWorker = worker
-			}
-		}
-
-		// Assign the task to the least busy worker
-		task := taskQueue[0]
-		taskQueue = taskQueue[1:]
-
-		leastBusyWorker.Workload++
-		fmt.Printf("Task assigned to worker: %s|%s|%s\n", task.Operation, task.MatrixA, task.MatrixB)
-
-		go func(worker *Worker, task Task) {
-			// Simulate task processing
-			time.Sleep(1 * time.Second)
-			worker.Workload--
-
-			// Send result back to client
-			clientMapLock.Lock()
-			client, exists := clientMap[task.ClientID]
-			clientMapLock.Unlock()
-
-			if exists {
-				client.Write([]byte("RESULT|" + task.ClientID + "|Task completed\n"))
-			}
-		}(leastBusyWorker, task)
+func main() {
+	server := &Server{
+		TaskQueue: make(chan Task, 10),
+		Results:   make(map[string]string),
 	}
+
+	rpc.Register(server)
+
+	// Start RPC server for clients
+	go func() {
+		cert, err := tls.LoadX509KeyPair("cert.pem", "key.pem")
+		if err != nil {
+			fmt.Println("[SERVER] ❌ Error loading TLS certificates:", err)
+			return
+		}
+		config := &tls.Config{Certificates: []tls.Certificate{cert}}
+		listener, err := tls.Listen("tcp", ":6000", config)
+		if err != nil {
+			fmt.Println("[SERVER] ❌ Server error:", err)
+			return
+		}
+		defer listener.Close()
+
+		fmt.Println("[SERVER] ✅ RPC Server started on port 6000...")
+		for {
+			conn, err := listener.Accept()
+			if err != nil {
+				fmt.Println("[SERVER] ❌ RPC Connection error:", err)
+				continue
+			}
+			go rpc.ServeConn(conn)
+		}
+	}()
+
+	// Start TCP server for workers
+	workerListener, err := net.Listen("tcp", ":6001")
+	if err != nil {
+		fmt.Println("[SERVER] ❌ Error starting Worker Listener:", err)
+		return
+	}
+	fmt.Println("[SERVER] ✅ Worker Listener started on port 6001...")
+	server.HandleWorkerConnections(workerListener)
 }

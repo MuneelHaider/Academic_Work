@@ -4,48 +4,86 @@ import (
 	"bufio"
 	"fmt"
 	"net"
+	"strconv"
 	"strings"
 )
 
 func main() {
-	conn, err := net.Dial("tcp", "localhost:12345")
+	conn, err := net.Dial("tcp", "localhost:6001")
 	if err != nil {
-		fmt.Println("Error connecting to server:", err)
+		fmt.Println("[WORKER] ❌ Error connecting to server:", err)
 		return
 	}
 	defer conn.Close()
 
-	fmt.Println("Worker registered. Waiting for tasks...")
-	conn.Write([]byte("WORKER\n"))
+	fmt.Println("[WORKER] ✅ Worker connected. Waiting for tasks...")
 
 	reader := bufio.NewReader(conn)
 
 	for {
 		task, err := reader.ReadString('\n')
 		if err != nil {
-			fmt.Println("Error reading task. Reconnecting...")
+			fmt.Println("[WORKER] ❌ Disconnected. Reconnecting...")
 			return
 		}
 
 		task = strings.TrimSpace(task)
 		parts := strings.Split(task, "|")
 
-		if len(parts) < 3 {
-			fmt.Println("Invalid task format received:", task)
+		if len(parts) < 5 || parts[0] != "TASK" {
+			fmt.Println("[WORKER] ❌ Invalid task format received:", task)
 			continue
 		}
 
 		clientID := parts[1]
 		operation := parts[2]
+		matrixA := parts[3]
+		matrixB := parts[4]
 
-		fmt.Printf("Received task from client %s: %s\n", clientID, task)
+		fmt.Printf("[WORKER] 📥 Received task: %s|%s|%s\n", operation, matrixA, matrixB)
 
-		// Forward the task to the server for processing
-		conn.Write([]byte("TASK|" + clientID + "|" + operation + "|" + parts[3] + "|" + parts[4] + "\n"))
+		result := processTask(operation, matrixA, matrixB)
+
+		conn.Write([]byte(fmt.Sprintf("RESULT|%s|%s\n", clientID, result)))
+		fmt.Printf("[WORKER] ✅ Result sent: %s\n", result)
 	}
 }
 
-// Matrix helper functions
+func processTask(operation, matrixA, matrixB string) string {
+	switch operation {
+	case "ADD":
+		m1 := parseMatrix(matrixA)
+		m2 := parseMatrix(matrixB)
+		if m1 == nil || m2 == nil || !isSameSize(m1, m2) {
+			return "Invalid matrices"
+		}
+		return matrixToString(addMatrices(m1, m2))
+
+	case "MUL":
+		m1 := parseMatrix(matrixA)
+		m2 := parseMatrix(matrixB)
+		if m1 == nil || m2 == nil {
+			return "Invalid matrices"
+		}
+		multiplied, err := multiplyMatrices(m1, m2)
+		if err != nil {
+			return "Multiplication not possible"
+		}
+		return matrixToString(multiplied)
+
+	case "TRANSPOSE":
+		m := parseMatrix(matrixA)
+		if m == nil {
+			return "Invalid matrix"
+		}
+		return matrixToString(transposeMatrix(m))
+
+	default:
+		return "Invalid operation"
+	}
+}
+
+// 🛠️ **Matrix Helper Functions**
 func parseMatrix(data string) [][]int {
 	rows := strings.Split(data, ";")
 	matrix := [][]int{}
@@ -54,8 +92,7 @@ func parseMatrix(data string) [][]int {
 		nums := strings.Fields(row)
 		intRow := []int{}
 		for _, num := range nums {
-			var val int
-			_, err := fmt.Sscanf(num, "%d", &val)
+			val, err := strconv.Atoi(num)
 			if err != nil {
 				return nil
 			}
