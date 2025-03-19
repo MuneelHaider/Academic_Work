@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Book = require('../models/Book');
 
-// Get all books
 router.get('/', async (req, res) => {
   try {
     const books = await Book.find();
@@ -12,7 +11,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Get a single book
 router.get('/:id', async (req, res) => {
   try {
     const book = await Book.findById(req.params.id);
@@ -23,7 +21,6 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Add a new book
 router.post('/', async (req, res) => {
   try {
     const { title, author, description, image } = req.body;
@@ -35,7 +32,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Add a review to a book
 router.post('/:id/reviews', async (req, res) => {
   try {
     const { text, rating } = req.body;
