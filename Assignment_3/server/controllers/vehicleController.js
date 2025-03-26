@@ -2,23 +2,33 @@ const Vehicle = require('../models/vehicle');
 const axios = require('axios');
 
 exports.fetchAndSaveVehicles = async (req, res) => {
-  const { vid } = req.params;
-  const response = await axios.get(`https://ctabustracker.com/bustime/api/v3/getvehicles?key=mMyphiiTdRckeGxemRLzJUFCZ&vid=${vid}&format=json`);
-  const vehicles = response.data['bustime-response'].vehicle;
+  try {
+    const { vid } = req.params;
+    const { data } = await axios.get(`https://ctabustracker.com/bustime/api/v3/getvehicles`, {
+      params: { key: process.env.CTA_API_KEY, vid, format: 'json' }
+    });
 
-  await Vehicle.deleteMany({});
-  await Vehicle.insertMany(vehicles || []);
+    const vehicles = data['bustime-response'].vehicle || [];
+    await Vehicle.deleteMany();
+    await Vehicle.insertMany(vehicles);
 
-  res.json({ message: 'Vehicles fetched & saved', data: vehicles });
+    res.json({ message: 'Vehicles fetched & saved', count: vehicles.length });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 };
 
-exports.getVehicles = async (req, res) => res.json(await Vehicle.find());
+exports.getVehicles = async (req, res) => {
+  const vehicles = await Vehicle.find();
+  res.json(vehicles);
+};
 
-exports.updateVehicle = async (req, res) => res.json(
-  await Vehicle.findOneAndUpdate({ vid: req.params.vid }, req.body, { new: true })
-);
+exports.updateVehicle = async (req, res) => {
+  const updated = await Vehicle.findOneAndUpdate({ vid: req.params.vid }, req.body, { new: true });
+  res.json(updated);
+};
 
 exports.deleteVehicle = async (req, res) => {
   await Vehicle.findOneAndDelete({ vid: req.params.vid });
-  res.json({ message: 'Deleted successfully' });
+  res.json({ message: 'Vehicle deleted successfully' });
 };

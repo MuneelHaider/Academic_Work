@@ -2,22 +2,32 @@ const Route = require('../models/route');
 const axios = require('axios');
 
 exports.fetchAndSaveRoutes = async (req, res) => {
-  const response = await axios.get(`http://ctabustracker.com/bustime/api/v3/getroutes?key=ujAhaYu9dy6TAF2VgMLWK5nnV&format=json`);
-  const routes = response.data['bustime-response'].routes;
+  try {
+    const { data } = await axios.get(`https://ctabustracker.com/bustime/api/v3/getroutes`, {
+      params: { key: process.env.CTA_API_KEY, format: 'json' }
+    });
 
-  await Route.deleteMany({});
-  await Route.insertMany(routes || []);
+    const routes = data['bustime-response'].routes || [];
+    await Route.deleteMany();
+    await Route.insertMany(routes);
 
-  res.json({ message: 'Routes fetched & saved', data: routes });
+    res.json({ message: 'Routes fetched & saved', count: routes.length });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 };
 
-exports.getRoutes = async (req, res) => res.json(await Route.find());
+exports.getRoutes = async (req, res) => {
+  const routes = await Route.find();
+  res.json(routes);
+};
 
-exports.updateRoute = async (req, res) => res.json(
-  await Route.findOneAndUpdate({ rt: req.params.rt }, req.body, { new: true })
-);
+exports.updateRoute = async (req, res) => {
+  const updated = await Route.findOneAndUpdate({ rt: req.params.rt }, req.body, { new: true });
+  res.json(updated);
+};
 
 exports.deleteRoute = async (req, res) => {
   await Route.findOneAndDelete({ rt: req.params.rt });
-  res.json({ message: 'Deleted successfully' });
+  res.json({ message: 'Route deleted successfully' });
 };
