@@ -1,0 +1,7 @@
+<h2>Blog Posts</h2>
+<div *ngFor="let blog of blogs">
+  <h3>{{ blog.title }}</h3>
+  <p>{{ blog.content }}</p>
+  <small>By {{ blog.author }} on {{ blog.date }}</small>
+  <hr>
+</div>
