@@ -1,0 +1,79 @@
+{
+  "hash": "b614db13",
+  "configHash": "69fe1998",
+  "lockfileHash": "eab8b3b4",
+  "browserHash": "5ce3df1c",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f77178ad",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "82341b41",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "e9d8956b",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7f0a7a44",
+      "needsInterop": false
+    },
+    "@apollo/client/core": {
+      "src": "../../../../../../node_modules/@apollo/client/core/index.js",
+      "file": "@apollo_client_core.js",
+      "fileHash": "a8b321d1",
+      "needsInterop": false
+    },
+    "apollo-angular": {
+      "src": "../../../../../../node_modules/apollo-angular/fesm2022/ngApollo.mjs",
+      "file": "apollo-angular.js",
+      "fileHash": "efc9bfee",
+      "needsInterop": false
+    },
+    "apollo-angular/http": {
+      "src": "../../../../../../node_modules/apollo-angular/fesm2022/ngApolloLinkHttp.mjs",
+      "file": "apollo-angular_http.js",
+      "fileHash": "54fdf74c",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "40680970",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UM4MBMGK": {
+      "file": "chunk-UM4MBMGK.js"
+    },
+    "chunk-QZ4GF4ND": {
+      "file": "chunk-QZ4GF4ND.js"
+    },
+    "chunk-SXMEMAB2": {
+      "file": "chunk-SXMEMAB2.js"
+    },
+    "chunk-NLNQIZC5": {
+      "file": "chunk-NLNQIZC5.js"
+    },
+    "chunk-XF54RDC5": {
+      "file": "chunk-XF54RDC5.js"
+    },
+    "chunk-QTLEJ4CA": {
+      "file": "chunk-QTLEJ4CA.js"
+    },
+    "chunk-L3TH4L7L": {
+      "file": "chunk-L3TH4L7L.js"
+    }
+  }
+}
