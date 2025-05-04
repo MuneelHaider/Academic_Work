@@ -1,17 +1,22 @@
 package merkle
 
+import (
+	"crypto/sha256"
+	"encoding/hex"
+)
+
 type MerkleProof struct {
-	Hashes []string
-	Index  int
+	Hashes []string 
+	Index  int      
 }
 
-// GenerateMerkleProof builds a Merkle proof for a leaf at given index
+// GenerateMerkleProof generates the Merkle proof path for a leaf at given index
 func GenerateMerkleProof(leaves []string, index int) MerkleProof {
 	var hashes []string
 	var nodes []*Node
 
 	for _, data := range leaves {
-		nodes = append(nodes, &Node{Hash: hash(data)})
+		nodes = append(nodes, &Node{Hash: hashStr(data)})
 	}
 
 	i := index
@@ -22,14 +27,9 @@ func GenerateMerkleProof(leaves []string, index int) MerkleProof {
 				nextLevel = append(nextLevel, nodes[j])
 			} else {
 				combined := nodes[j].Hash + nodes[j+1].Hash
-				parent := &Node{
-					Hash:  hash(combined),
-					Left:  nodes[j],
-					Right: nodes[j+1],
-				}
+				parent := &Node{Hash: hashStr(combined)}
 				nextLevel = append(nextLevel, parent)
 
-				// if index is in this pair, capture sibling hash
 				if j == i || j+1 == i {
 					sibling := j
 					if i == j {
@@ -47,4 +47,25 @@ func GenerateMerkleProof(leaves []string, index int) MerkleProof {
 		Hashes: hashes,
 		Index:  index,
 	}
+}
+
+// VerifyMerkleProof verifies a Merkle proof for a given leaf, proof path and expected root
+func VerifyMerkleProof(leaf string, proof MerkleProof, expectedRoot string) bool {
+	computedHash := hashStr(leaf)
+	index := proof.Index
+
+	for _, siblingHash := range proof.Hashes {
+		if index%2 == 0 {
+			computedHash = hashStr(computedHash + siblingHash)
+		} else {
+			computedHash = hashStr(siblingHash + computedHash)
+		}
+		index = index / 2
+	}
+	return computedHash == expectedRoot
+}
+
+func hashStr(data string) string {
+	h := sha256.Sum256([]byte(data))
+	return hex.EncodeToString(h[:])
 }

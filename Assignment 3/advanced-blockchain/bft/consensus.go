@@ -6,7 +6,6 @@ func CalculateConsensusThreshold(nodes []*Node) float64 {
 		totalTrust += n.TrustScore
 	}
 
-	// Require 2/3 of total trust for consensus
 	return (2.0 / 3.0) * totalTrust
 }
 
@@ -18,4 +17,16 @@ func CountTrustedVotes(nodes []*Node) float64 {
 		}
 	}
 	return votes
+}
+
+func CountVerifiedVotes(votes []Vote, nodes []*Node) int {
+	valid := 0
+	for _, v := range votes {
+		for _, n := range nodes {
+			if n.ID == v.NodeID && VerifyVote(v, n.PublicKey) {
+				valid++
+			}
+		}
+	}
+	return valid
 }

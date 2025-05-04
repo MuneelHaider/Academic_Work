@@ -1,7 +1,6 @@
 package state
 
 import (
-	"advanced-blockchain/crypto"
 	"advanced-blockchain/merkle"
 	"crypto/sha256"
 	"encoding/hex"
@@ -19,16 +18,12 @@ type Block struct {
 
 func NewBlock(index int, data []string, prevHash string) Block {
 	root := merkle.BuildMerkleTree(data)
-	acc := crypto.NewAccumulator()
-	for _, d := range data {
-		acc.Add(d)
-	}
 
 	block := Block{
 		Index:        index,
 		Data:         data,
 		MerkleRoot:   root.Hash,
-		Accumulator:  hex.EncodeToString(acc.Get()),
+		Accumulator:  "", // Placeholder
 		EntropyScore: calcEntropy(data),
 		PrevHash:     prevHash,
 	}
@@ -43,7 +38,6 @@ func (b *Block) generateHash() string {
 	return hex.EncodeToString(sum[:])
 }
 
-// Naive entropy: unique character count from combined data
 func calcEntropy(data []string) int {
 	unique := make(map[rune]bool)
 	for _, d := range data {

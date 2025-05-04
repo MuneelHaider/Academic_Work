@@ -2,7 +2,7 @@ package sharding
 
 type ShardManager struct {
 	Shards []*Shard
-	Threshold int // Max items per shard before splitting
+	Threshold int
 }
 
 func NewShardManager(threshold int) *ShardManager {
@@ -19,7 +19,7 @@ func (sm *ShardManager) AddData(data string) {
 			return
 		}
 	}
-	// All shards full, create new one
+
 	newShard := &Shard{
 		ID:   len(sm.Shards),
 		Data: []string{data},

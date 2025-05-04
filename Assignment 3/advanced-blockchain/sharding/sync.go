@@ -1,50 +1,57 @@
 package sharding
 
 import (
-	"crypto/sha256"
-	"encoding/hex"
+	"advanced-blockchain/merkle"
 )
 
 type StateTransfer struct {
-	DataChunk []string
 	FromShard int
 	ToShard   int
-	Commitment string // SHA256 commitment
+	DataChunk []string
+	Proofs    []merkle.MerkleProof
+	RootHash  string
 }
 
 func CreateStateTransfer(from *Shard, to *Shard, count int) StateTransfer {
-	if len(from.Data) < count {
+	if count > len(from.Data) {
 		count = len(from.Data)
 	}
-	dataToTransfer := from.Data[:count]
-	from.Data = from.Data[count:]
-	from.RecalculateMerkleRoot()
 
-	// Append to receiving shard
-	to.Data = append(to.Data, dataToTransfer...)
-	to.RecalculateMerkleRoot()
+	chunk := from.Data[:count]
+	tree := from.GetMerkleTree()
 
-	// Create commitment hash
-	commitHash := hashCommitment(dataToTransfer)
+	proofs := []merkle.MerkleProof{}
+	for _, entry := range chunk {
+		idx := indexOf(entry, from.Data)
+		if idx == -1 {
+			continue
+		}
+		proofs = append(proofs, merkle.GenerateMerkleProof(from.Data, idx))
+	}
 
 	return StateTransfer{
-		DataChunk:  dataToTransfer,
-		FromShard:  from.ID,
-		ToShard:    to.ID,
-		Commitment: commitHash,
+		FromShard: from.ID,
+		ToShard:   to.ID,
+		DataChunk: chunk,
+		Proofs:    proofs,
+		RootHash:  tree.Hash,
 	}
 }
 
-func VerifyCommitment(transfer StateTransfer) bool {
-	expected := hashCommitment(transfer.DataChunk)
-	return expected == transfer.Commitment
+func VerifyMerkleProofs(transfer StateTransfer) bool {
+	for i, entry := range transfer.DataChunk {
+		if !merkle.VerifyMerkleProof(entry, transfer.Proofs[i], transfer.RootHash) {
+			return false
+		}
+	}
+	return true
 }
 
-func hashCommitment(data []string) string {
-	combined := ""
-	for _, d := range data {
-		combined += d
+func indexOf(target string, arr []string) int {
+	for i, v := range arr {
+		if v == target {
+			return i
+		}
 	}
-	h := sha256.Sum256([]byte(combined))
-	return hex.EncodeToString(h[:])
+	return -1
 }
